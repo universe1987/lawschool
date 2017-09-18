@@ -6,6 +6,7 @@ DATA_DIR = os.path.join(PACKAGE_DIR, 'data')
 HTML_DIR = os.path.join(DATA_DIR, 'html')
 JSON_DIR = os.path.join(DATA_DIR, 'json')
 ENTRY_DIR = os.path.join(DATA_DIR, 'entry')
+CLEAN_DIR = os.path.join(DATA_DIR, 'clean')
 
 for folder in [DATA_DIR, HTML_DIR, JSON_DIR, ENTRY_DIR]:
     if not os.path.exists(folder):
