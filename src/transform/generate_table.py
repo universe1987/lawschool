@@ -41,6 +41,27 @@ def all_user_tables():
     return df
                 
 
+def select_search_tables():
+    search_results = glob('{}/search_*'.format(JSON_DIR))
+    folder_len = len(JSON_DIR)
+    data = {'Last Updated': [],
+            'LSAT': [],
+            'GPA': [],
+            'User Name': [],
+            'Year': []}
+    sw = StopWatch()
+    for filename in search_results:
+        year = filename[folder_len:].split('_')[1]
+        with open(filename, 'rb') as fp:
+            table = json.load(fp)
+        for key in table:
+            data[key] += table[key]
+        data['Year'] += [year] * len(table['GPA'])
+    df = pd.DataFrame(data)
+    sw.tic('generate search table')
+    return df
+
+
 def select_user_tables():
     user_applications = glob('{}/user_*'.format(JSON_DIR))
     folder_len = len(JSON_DIR)
@@ -92,6 +113,9 @@ if __name__ == '__main__':
     print df.head()
     print df.tail()
     raw_input("finished assembling dataset")
+
+    select_search_tables()
+
     # user_names, user_stats = select_user_tables()
     # df = pd.DataFrame(user_stats, index=user_names, columns=['Complete', 'Decision', 'Received', 'Sent'])
     df.to_csv('all.csv')
