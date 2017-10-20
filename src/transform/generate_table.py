@@ -14,6 +14,32 @@ from config import JSON_DIR, ENTRY_DIR
 
 from StopWatch import StopWatch
 
+def all_user_tables():
+    user_applications = glob('{}/user_*'.format(JSON_DIR))
+    folder_len = len(JSON_DIR)
+    user_names = ['_'.join(s[folder_len:].split('_')[1:-1]) for s in user_applications]
+    sw = StopWatch()
+    print len(user_applications)
+    
+    list = []
+    for i, filename in enumerate(user_applications):
+        if (i + 1) % 10000 == 0:
+            print i
+        with open(filename, 'rb') as fp:
+            table = json.load(fp)
+            n_applications = float(len(table['Sent']))
+            if n_applications == 0:
+                continue
+            for j in range(int(n_applications)):
+                line = [user_names[i], table['Status'][j], table['Received'][j], table['Updated'][j],
+                table['Complete'][j], table['Law School'][j],table['Decision'][j],table['Type'][j],
+                table['Sent'][j],table['$$$'][j]]
+                list.append(line)
+    df=pd.DataFrame(list,columns=['user_name','Status','Received','Updated','Complete','Law School',
+                                  'Decision','Type','Sent','$$$'])
+    sw.tic('generating all information')
+    return df
+                
 
 def select_user_tables():
     user_applications = glob('{}/user_*'.format(JSON_DIR))
@@ -62,11 +88,16 @@ def filter_good_applicants(df, col, threshold):
 
 
 if __name__ == '__main__':
+    df = all_user_tables()
+    print df.head()
+    print df.tail()
+    raw_input("finished assembling dataset")
     # user_names, user_stats = select_user_tables()
     # df = pd.DataFrame(user_stats, index=user_names, columns=['Complete', 'Decision', 'Received', 'Sent'])
-    # df.to_csv('a.csv')
-    df = pd.read_csv('a.csv')
+    df.to_csv('all.csv')
+    df = pd.read_csv('all.csv')
     print len(df)
+    '''
     df = filter_good_applicants(df, 'Complete', 0)
     print len(df)
     df = filter_good_applicants(df, 'Decision', 0)
@@ -75,3 +106,4 @@ if __name__ == '__main__':
     print len(df)
     df = filter_good_applicants(df, 'Received', 0)
     print len(df)
+    '''
