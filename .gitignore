@@ -1,3 +1,8 @@
+.DS_Store
+data/edit
+data/raw
+data/html.7z
+model
 *.pyc
 src/.idea
 *.html
