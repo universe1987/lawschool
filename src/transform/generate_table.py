@@ -32,6 +32,7 @@ def select_search_tables():
             data[key] += table[key]
         data['Year'] += [year] * len(table['GPA'])
     df = pd.DataFrame(data)
+
     sw.tic('generate search table')
     return df
 
@@ -84,7 +85,7 @@ def filter_good_applicants(df, col, threshold):
 
 if __name__ == '__main__':
     select_search_tables()
-
+    exit(0)
     # user_names, user_stats = select_user_tables()
     # df = pd.DataFrame(user_stats, index=user_names, columns=['Complete', 'Decision', 'Received', 'Sent'])
     # df.to_csv('a.csv')
