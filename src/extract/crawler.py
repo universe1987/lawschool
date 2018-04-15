@@ -37,7 +37,7 @@ def crawl():
                    'mlast=Included&' \
                    'commit=Search+Applicants&' \
                    'page={}'
-    num_pages = [65, 120, 141, 149, 201, 126, 100, 70, 58, 52, 34, 40, 23, 31, 1]
+    num_pages = [65, 120, 141, 149, 201, 126, 100, 70, 58, 52, 34, 40, 22, 28, 31, 1]
     url_list = []
     for i, n in enumerate(num_pages):
         for p in range(n):
