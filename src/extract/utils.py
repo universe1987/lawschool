@@ -69,3 +69,17 @@ def tokenize(url):
         return 'search', search_name
     if 'lawschoolnumbers.com' in host_name and path_name == '':
         return 'school', '_'.join(host_name.split('.')[:-2])
+
+
+def sanitize_str(s, remove_from_left, remove_from_right):
+    for i in range(len(s)):
+        c = s[i].lower()
+        if c not in remove_from_left:
+            break
+    result = s[i:]
+    n = len(result)
+    for i in range(n):
+        c = result[n-i-1].lower()
+        if c not in remove_from_right:
+            break
+    return result[:n-i]
