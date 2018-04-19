@@ -35,7 +35,8 @@ def get_html(url, saveas, max_retry=5):
 def is_valid_url(url):
     result = tokenize(url)
     return result is not None
-    
+
+
 def keep_ascii(s):
     ascii_part = [c for c in s if ord(c) < 128]
     x = ''.join(ascii_part).strip()
@@ -79,7 +80,7 @@ def sanitize_str(s, remove_from_left, remove_from_right):
     result = s[i:]
     n = len(result)
     for i in range(n):
-        c = result[n-i-1].lower()
+        c = result[n - i - 1].lower()
         if c not in remove_from_right:
             break
-    return result[:n-i]
+    return result[:n - i]
