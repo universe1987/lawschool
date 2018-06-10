@@ -1,0 +1,305 @@
+    '''
+    # Spread the nested json file into a single-layer list of json elements
+    list_jsons = []
+    for ix in range(0, len(json_data)):
+        for ic in range(0,len(json_data[ix]['data'])):
+            for im in range(0,len(json_data[ix]['data'][ic])):
+                list_jsons.append(json_data[ix]['data'][ic][im])
+                #print 'ix',ix,'ic',ic,'im',im,len(list_jsons)
+    print len(list_jsons)
+    
+    # Select useful json elements
+    list_jsons = [elem for elem in list_jsons if elem['top'] != 0.0]  #empty jsons
+    extract_list_jsons = {}
+    value_list_jsons = {}
+    var_list = ['Major Category','Major','Percent of Applicants']
+    value_list = [20.34, 114.78, 451.5] #451.5
+    for index, var in enumerate(var_list):
+        extract_list_jsons[var] = [elem for elem in list_jsons if elem['left'] == value_list[index]] 
+        #print 'var',var, len(extract_list_jsons[var])
+    for index, var in enumerate(var_list):
+        value_list_jsons[var] = []
+        for ix in range(0,len(extract_list_jsons[var])):
+            value_list_jsons[var].append(extract_list_jsons[var][ix]['text'])
+        #print 'var',var,value_list_jsons[var]
+    
+    # Bundle useful json elements to dataframe
+    df_bundle = pd.DataFrame()
+    for var in ['Major Category','Major','Percent of Applicants']:
+        df = pd.DataFrame(value_list_jsons[var],columns=[var])
+        df_bundle = pd.concat([df,df_bundle],axis=1)
+    print 'df',df_bundle
+    df_bundle.to_csv('../../data/edit/{}_df.csv'.format(json_name))
+    return df_bundle
+    '''
+
+
+
+
+
+def clean_race_ethnicity():
+    df_details = pd.read_csv('../../data/edit/df_details.csv')
+    df_details['Race'] = df_details['Race'].fillna('').str.lower() # May transfer to learn_text
+    df_details['Race2'] = df_details['Race']
+    # The orders below cannot be swamped! Keep the order!
+    for index, item in enumerate(['white','european','caucasian','cau','cucasian','pale','/ca','illinois american',
+                                  'nothing special','c/','spanish','greek','wite','whie','whit','wht','redhead',
+                                  'anglo','whitish','italian','non-urm','non  - urm','not urm','non urm','nonurm',
+                                  'middle eastern','jewish','vanilla','iranian','no box checked','irish','dutch',
+                                  'not an urm','adam','ur majority','nothing helpful','mediterranean','pure','semitic',
+                                  'custard','german','scott','scots','sunburn prone','n-urm','snowy','canadian',
+                                  'not a urm','wish i was a urm','noturm','pigment deficient','over represented',
+                                  'british','overrm','orm','the sun is my enemy','russian','turkish','nordic','swarthy',
+                                  'pinkish','redneck','whiiiiiiite','whate','none','no help here','cacasain','calico',
+                                  'portuguese','serbian','wihite', 'whiite','armenian','sunburns easily','romanian',
+                                  'doesnt matter','overrep. majority','wishing i was a urm','polish','over-rep-majority',
+                                  'overrprsntedmajority','whiate', 'persian','mid-eastern','plain','uzbek','middleastern',
+                                  'middle east','albino','wasp','clear','middle-eastern','over-represented maj','guera',
+                                  'honkey','honky','jew should=urm','the usual','albanian','nothing useful','chaldean',
+                                  'sunburned','euro-american','swedish-american  :-','southern','while/male','while',
+                                  'blank','boring, typical, not','texan','light complex','no help','not advantageous for',
+                                  'citizen/irrelevant','north atlantic islan','antarctican','lebonese','basque','afghan',
+                                  'viva espana','el gringo','assyrian','slavic','i hate running!','lebanese','gringo',
+                                  'gringa','creole','cracka','cracker','crackaling','american?','sour cream','whice',
+                                  'ginger','guero','gaul','200 butterfly','100 m breast','w/c',"i'm an egg"]):
+        df_details.loc[df_details['Race'].str.contains(item),'Race2'] = 'white'
+    for index, item in enumerate(['wm','w.m','wf','f/w','w/m','ca','wh - m','b/','american','south american','female, ca.',
+                                  'w, m','whi','wh/m', 'w/male','w/female','south american f','w/f','majority','w m','w. m.',
+                                  'whizite','euro','w / f','wh/f','m/w','wh','c',"can\\'t jump","can\\'t jump or dance",
+                                  'boring','w','irrelevant']):
+        df_details.loc[df_details['Race'] == item,'Race2'] = 'white'
+    for index, item in enumerate(['asia','asian american','east indian','japanese','west indian','korean','ascian','azn',
+                                  'chinese','tibetan','vietnamese','taiwanese','cambodian','banana','filipino','saiyan',
+                                  'filipina','pakistani','asisn','over-repd minority','indian','overrepresented mino',
+                                  'bangladesh','hindu','south azn','overachieving mnrty','thai','oriental','nonminority minority',
+                                  "overrep'd minority",'female/family from i','brown','pilipino','bengali','vietcong','mongolian',
+                                  'mixed api','pacific islander','pac isld','islander','a/pi','apa','pacific islander/whi','pi',
+                                  'api/f','yellow','tongan','samoan','coolie','subcontinental']):
+        df_details.loc[df_details['Race'].str.contains(item),'Race2'] = 'asian and pacific islander'
+    for index, item in enumerate(['i','as']):
+        df_details.loc[df_details['Race'] == item,'Race2'] = 'asian and pacific islander'
+    for index, item in enumerate(['hispanic','latino','cuban','latin','jamaican','hispaic','hispano','colombian american',
+                                  'ecuadorian','caribbea','brazilian','argentinian','hisp/','hspanic','guyanese','haitian']):
+        df_details.loc[df_details['Race'].str.contains(item),'Race2'] = 'hispanic'
+    for index, item in enumerate(['h','h/m','his','h/f','f/h','w/h','h/na','h/l']):
+        df_details.loc[df_details['Race'] == item,'Race2'] = 'hispanic'
+    for index, item in enumerate(['mexican','mex','meixcan','chicano','chicana','tejano','xicano','xicana']):
+        df_details.loc[df_details['Race'].str.contains(item),'Race2'] = 'mexican'
+    for index, item in enumerate(['not mexican']):
+        df_details.loc[df_details['Race'] == item,'Race2'] = 'hispanic'
+    for index, item in enumerate(['puerto rican','puerto ric','puertorican','puerto','pr','puerto-rican/pr','boriquen']):
+        df_details.loc[df_details['Race'].str.contains(item),'Race2'] = 'puerto rican'
+    for index, item in enumerate(['black','african','blk','af-am','af.am','b/','aa','afr','a.a.','af. am','nigerian-american',
+                                  'afirican american','blck','urm','120 meter high hurdl','half urm','nigerian american','negro',
+                                  'nigger','nigerian','400m hurdles','400m dash','200 m dash','100 meter hurdles','1500 meters',
+                                  '100m dash','i only run the 100m','100m','yes, i am fast.','bl','dark chocolate','100 m & 200 m',
+                                  'egyptian','10.1 on the 100','the cake walk.' ,'mena','minoriy','minority','a a','a.a','a/m',
+                                  'm/a','a/f']):
+        df_details.loc[df_details['Race'].str.contains(item),'Race2'] = 'african'
+    for index, item in enumerate(['b' ]):
+        df_details.loc[df_details['Race'] == item,'Race2'] = 'african'
+    for index, item in enumerate(['kad','gwf','female','unreported','privileged','weber bread','ewok','econ/psych','disclose after cycle',
+                                  'cartoon','wonderbread','klingon','what is the hurry?','declined to state','wonder bread','world conqueror',
+                                  'i think you can figu','non-disclosed','history','refused to answer on', 'why does this matter','human?','poop',
+                                  'did not state','gov and econ','uh, human','see below','guess','ethnic', '-','republican','say it loud...!!',
+                                  'witheld','awesome',"pockets ain\\'t empty",'decline to state',"no, i'm tired",'human; born outside','human','???',
+                                  'car is a palindrome','test','sure, why not.','undisclosed','how far is it?','chemistry','not given','unknown/male',
+                                  'male','f','m','let me into your sch','player','paste','55446','123','78728','0','26.2','meat','above','/',
+                                  'somewhere in the con','purple','2cccc','21','dfdfd','kryptonian','ufo','lady','drag','other/female','first place',
+                                  'winner','elf','robot','alien','engine','downhill','best','(see above...)','human.','last place','any','2nd place',
+                                  'social construction','mario kart','motocross','vulcan','the man','cannonball run','run, run, as fast as','libertarian',
+                                  'giggity-giggity','phallus-endowed wop','party time','pasty','pastey','translucent','nascar','pasty','pastey',
+                                  '2 the finish','to the finish line','?','100% hottstuff','hot wheels, mf!','casper the ghost','asfasdfsaf',
+                                  'noob', 'daytona 500','powg','night elf mohawk','flip','to the finish','richie cunningham','sith lord','halfling',
+                                  'foreign','international','turqouise','different','decline to respond (','<a href=\\"http://www','vol nation',
+                                  'ghostly','ha&#39;ole','n/a','4x8, 1600','--','5 kilometer','3k','4x4 and 4x8 mid dist','40 meters','5k',
+                                  'is to the swift','ma','gp','wnh','mentholated','visa_man','nhw','500 free, 200 im','cw/m','cw/ai','a','asd','10k',
+                                  '40k tt','speedy quick','rm','sdf',"i can\\'t jump",'am','u']):
+        df_details.loc[df_details['Race'] == item,'Race2'] = ''
+    for index, item in enumerate(['bi-racial','mixed','mixed race','multiracial','biracial','two or more races','half and half',
+                                  'multi-ethnic','wonderful mix!','mixed, other','more than 2','other (multiethnic)','mixed/f',
+                                  'not really sure','multiple','muliti','mix of things','multi-racial','mixed ethnicity','mix',
+                                  'mulit-racial','2 or more races','some race','all mixed up','multi-ethnic / multi','mixed/female',
+                                  'multiethnic',"it's complicated",'mutli-racial','two or more','more than one','other (mixed race)',
+                                  'not specified on app','immigrant','mixed/other','a little of everythi','multi','multi-cultural',
+                                  'mongrel man','minority, but not ur','other','a minority with no m','minority with no min','mutt']):
+        df_details.loc[df_details['Race'] == item,'Race2'] = 'Mixed, probably not urm'
+    for index, item in enumerate(['native american','native american and','idiatrod','native american, whi','native-american',
+                                  'native american indi','male/native american','native american, eur','native american/amer',
+                                  'native','nat. american','a.i.','ai','cherokee','mestizo','injun','Caucasian/American I']):
+        df_details.loc[df_details['Race'] == item,'Race2'] = 'Native American or alaskan'
+                
+    print 'Race2', df_details['Race2'].nunique(), df_details['Race2'].unique()
+    print 'Race2', len(df_details[df_details['Race2']!=''])
+    df = pd.Series(df_details['Race2'].unique())
+    df.to_csv('../../data/edit/Race2_unique.csv')
+    df_details.to_csv('../../data/edit/df_details.csv')
+    return
+    
+def correct_college_name():
+    # with a threshold of 0.85
+    #correct_name = {'A':'a','B':'b'}
+    correct_name = {'texas a&m':'Texas A&M University--College Station',
+                    'unc chapel hill':'University of North Carolina--Chapel Hill',
+                    'uc school':'uc',
+                    'ca public':'csu',
+                    'indiana university':'Indiana University--Bloomington',
+                    'university of california':'uc',
+                    'private pepperdine university':'pepperdine university',
+                    'uw madison':'University of Wisconsin--Madison',
+                    'university of texas':'University of Texas--Austin',
+                    'gwu elliott school':'George Washington University',
+                    'univ. of illinois':'University of Illinois--Urbana-Champaign',
+                    'university of southern califor':'university of southern california',
+                    'public   uc berkeley':'University of California--Berkeley',
+                    'hyp':'harvard',
+                    'big ten, iu':'Indiana University--Bloomington',
+                    'ncat':'north carolina a&t state university',
+                    'u. of michigan':'University of Michigan--Ann Arbor',
+                    'north carolina state universit':'North Carolina State University--Raleigh',
+                    'nyu tisch':'nyu',
+                    'excelsior':'excelsior college',
+                    'penn stste':'Pennsylvania State University--University Park',
+                    'university of michigan':'University of Michigan--Ann Arbor',
+                    'major state university (ucla)':'UCLA',
+                    'hellacious (t10 public)':'top 10 public',
+                    'university of california river':'university of california river',
+                    'pton':'princeton',
+                    'university of north carolina c':'University of North Carolina--Charlotte',
+                    'ut austin':'University of Texas--Austin',
+                    'ohio state university':'Ohio State University--Columbus',
+                    'university of califo':'uc',
+                    'arizona state university':'Arizona State University--Tempe'
+                    }
+    foreign_name = {'simon fraser university','university of toronto','toronto','u of waterloo','national taiwan univ',
+                    'uwo','lanzhou university','u of t','wuhan university','snu','mcgill','overseas','mumbai',
+                    'university of ottawa','university of montreal','uk','oxford','top 5 ecuador', 'world','uk',
+                    'top school in china','queens college','peking university','ubc','sciences po','non-us',
+                    'queens u ontario','university of hong kong','school in paraguay','york u','university of szeged',
+                    'siena','intl','university (outside us & canad','schulich school of b','abroad','top chinese',
+                    'top south korean university','seoul univ','top in taiwan','russian university','beijing',
+                    'mac','fudan','swufe','european','tsinghua','university of british columbia','overseas',
+                    'university of applied sciences','yonsei','aarhus','united kingdom','australian',"int'l",
+                    'universidad','india','university of western ontario','japan','oxbridge','province','cayuga',
+                    'sciences po','university of windsor','university of edinburgh'}
+    special_name = {'hbcu','big ten','big 12','canadian university','lrg public','foreign','international',
+                    'sec', 'british','top 2 in china','jesuit','7 sisters','pac 10','slac','socon','seven sistahz'}
+    return
+    
+    list_ivy = ['ivy','ivy league','non-hyp ivy','ivy (not hyp)','private/ivy','ivy non-hyp',
+                'mid-ivy','ivy / oxbridge','non hyp ivy','iv','top private (ivy)','top - ivy',
+                'private - ivy','top 10 (ivy)','ivy, ph.d. candidate','ivy league - double degree pro',
+                'the ivy league','elite ivy','top 4 ivy','ivy - not hyp','top 5 ivy','ttt ivy',
+                'ivy private','top 10 ivy league','big ivy','ivy-league','ivy league school',
+                'ivy- lower tier (non','lesser ivy','ivy league (top 5)','t1 / ivy','ivy graduate, public',
+                'lower ivy','ivy league, top 10 private','ivy / tier 1','ivy - (non-hyp)',
+                'top 4-ivy league','ivy ugrad, top public masters','best ivy','ivy school','ivy ( hyp)',]
+    list_top10 = ['top 5','top5','top 3','top 4','top 10 private','top ten','top 10','top10','t10','t5',
+                  'private-top10','private-top 5','ivy-like','private, top 10','top 10 comp sci','t4','t4',
+                  'top 4 private','private, top 5','private top 10','private-top 10','private university - top 4 sch',
+                  'usnwr top 10','top 5 private','top 10? private','top 3/private','t10 private',
+                  'top 5, private','top 10 university','top 10, non-ivy','top private (non ivy)',
+                  'ivy-like (but non ivy)','top 3 ivy','top  10','top private, non-ivy','private - top 5',
+                  'top 10, private','top 10 school','private (uswnr top 10)','private--top 10','private top10',
+                  'top 10 national private','private - top 10','t-5 private','private - t10','top 10 college/university',
+                  'top non-ivy private','private, top ten','top non-ivy','top 10 private univ.','top ten university',
+                  'private, non-ivy','elite private (non-ivy)','private top 5','private, top-10 university',
+                  'top 10 non-ivy','top 10 univ','private [top 10 national]','t10, private','top 10 in us news',
+                  'top five private (non ivy)','private (top 10)','private, top-10','top  5','top private non-ivy',
+                  'top-five','top-ten, non-ivy','private (t5)','top private (non-ivy','private top ten',
+                  'private (top5)','t-10 school','elite non-ivy','top 10 small private','top 5 ug','top 2 private'
+                  'top 10 school (priva','top 3 (elite)','top-10 business, honors','top 5 business school',
+                  'private, tech, top 2','us news top 10','usnwr top 10 private','u.s. news top 5','to 10',
+                  'top 5 private college','top 10 undergrad','top 10 ug','top ten private','top 2 private',
+                  'top 10 ugrad','top 10 baby','top 10 school (priva','top-10 private, science/engine','ustop5']
+    list_top20 = ['top twenty','top 20','top 20 university','top 20 private','top 20 priv','t15','midwest - top 20',
+                  'top 15','private top 20','private, top 15','t20','private (top 20)','private - top 20','top-25',
+                  'private, top 20','private t20','top 20 priv''t15','top 15 ug','top 30 (usnwr)','top 15 undergrad',   
+                  'private, top-20 university','t12 private','top 20 - private','public -- top 30','top 20 private unive',
+                  'top 20, private','top15','top 15 private','private/top 15','top 15 university','top 20 natl','top 12',
+                  'private - top 15','top 20 private university','private university - top 15','usnwr top 15','top 14',
+                  't20, private','top 20, private, sou','private non-ivy top 15','usnwr top 20','top-15 private',
+                  'top 15, private','private, top 20, univ','top 20 us','top 20 national','top20','t15 (non-ivy)',
+                  't15 private','t14 private','top 20 ug','top 20 national university','top 20 school','top 20 (uswnr)',
+                  't-20','top 12 national university','top 20, non ivy','private- top 20','public, top 20','t20 private',
+                  'private top 15','top-20 national','t14 hopefully...','top 20-ish private','#16','one of the t14',
+                  'top 20 (private)','top 20, cum laude','medium private top 15','private (t-20)','top 20 undergrad',
+                  'top 20 national, non ivy, priv','private university - top 20','public ivy (us) / world top 20',
+                  't20, private university','public top 20 ug','t-15 private university','top 20 -private','t14',
+                  't15 national university','top 15 school','private t15','catholic, top 20','top 20 univ',
+                  't20 private university','top 20, elite east c','top 20 usnwr','private-t20','private, top 14',
+                  'private - t14 undergrad','top 20-public','us news top 15','private-top 20','top-15 national university',
+                  'top 20 private school','u.s. news top 15','usnwr top 20 university','top 20 pvt.','t14 university',
+                  't-15 private','top 20, non-ivy','top 13  us university','top 20, public','top-15 priv. uni.',
+                  'top-15','small private, top 20','top 12 private','top 12- private','usnwr-top 20 university',
+                  'top 20 pharmacy scho']
+    list_top30 = ['top 25','public (top 25)','top 25 private (hint: dc)','top 25 nat','private top 25','top 30 school',
+                  'top 25, private','top 25 private','t-25 private','private, top 25','top 25, state','private ug top 30',
+                  'top 25 university','private/top 22','t25','top 25 national university','top25','top30','top 25 national',
+                  'engineering, t25','top 30 university','top 25 ugrad','top 30','top 30 private','t-25','private, top 30',
+                  'private top 30','top 30 usnews','top 30 private unive','top-30 research university','private/top 25',
+                  'small top 30, privat','private - top 30','top 25 national u/to','top 30 undergrad','large public - top 25',
+                  'public, top 25 (u. m','top 25 (public)','top 25 overall/top 3','top 30, private','top 25 national ug',
+                  'usnews top25','top 30 national','private/ top 25','large private (top 30)','private (top 25)','t30',
+                  'top-30 private','public, top 25','public- top 25','top25 (top10 eng)*','public - top 25','top-25 private',
+                  'top 30 undergrad school','t-30','public/top25','private - top 25','top-25 non ivy','top 25 private undergrad',
+                  'top 25 state school','top 25 private undergrad','t30 private research universit','top 25 (private university)',
+                  'top25, go bruins','small private (top 25)','top 30 private (uofr)','top 30 research - sc','private/top 30',
+                  'small t30 private university','private - t25','top 25 ug, top 5 eng','top 25 usnwr','top 30 - private',
+                  'top 30 - middle size','private (top25)','top 25 ug','private (top 30)','top 30, all over the','top 30 worldwide',
+                  'private t-30','t25, private','private t30','t-30, small, public','private t25','public/t25']
+    list_top40 = ['top 40','top 40 private','top 4 private','private - top 40','private top 40','private, top 35 (university)',
+                  't-40 university','top 40 usnwr','top 35 (private university)','top 40, private','top 35 private','t40','t33',
+                  'top 40 university','top 35 university','top 40 undergrad','top 40/private','private top 35','private, top 40',
+                  'private - top 35','top 35','private, top 35','top35',"private in the 30\\'s",'top 40 ntl','top40 in nation u.c.',
+                  'usnwr #37']
+    list_top50 = ['top 50 private','t50 private','top 50','top-50','private top 50','t-50 private','private, top 50','private/top 50',
+                  'private (top 50ish)','top-50 private','top 50, private','top 50 (private)','private t50','top 50 university',
+                  'uc top 50','top 50/top 20 (publi','top 50 ug','private - top 50','top 50 national university','top 50 usnews',
+                  'top  50','top 50 undergraduate','private top fifty','public ivy, top 50 nationally','private-top 50','private top-50',
+                  'national university top 50','t50','us top 50','top 45 (private)','t50 national','private, top 55','usnwr top 50',
+                  'top 50 * uc system','top 50 major university','top 50 big public','private, tier 1, top 50','large top 50 state',
+                  'top 50 private research','top 50 large private','top 50 universities','top 50/london school of econom',
+                  'private (top 50) engineering','t50, private','top 50 university/private','large public, top 50','top 50/private',
+                  'top 50 - public','top50','top 50 / public','top 50ish','t-50','top 50/ public','top 50 - private']
+    list_top75 = ['ranked ~60 private','top 60','50--70','top 75 national university','top 75','top 60 private','private, top 60']
+    list_top100 = ['top100','top 100','top 100','top 100 private','top 100 undergrad','t100','top 75 private','top 100 - private',
+                   'top 100/public','usnwr top 100','top 100 (state/medium large: 2','public - top 100 college','top 100 large private',
+                   'us news top 100','t100 private','t80','state school (top 100)','private; top 100']
+    list_top_nation_public = ['public top 5','uc davis, public top 10','public top 10','top 10 public undergrad','public (top 15)',
+                              'public top 20','public t25','public top 25',
+                              'public, top 30','public - top 30','public top 30','public (top 30)','large public t30','large public; mid 40s rank','big public top 40',
+                              'public, top 40','public top 40','public (top 40)','public - top 40',
+                              'small top 50, public','public university top 50','public (top 50)','big public top 50',
+                              'public top 50','public, top 50','public - top 50','public(top 50)','top 50 - large public',
+                              'large public top 50','large publilc (top 50)','public-top 50',
+                              'public, top 100','public top 100','public - top 100']
+    list_top_public = ['best public','#1 public','#1-2 public','t2 public','# 2 public school','ranked 2nd public school','top 2 public','t3 public','top 3 public',
+                       'top 3 public university','top 4 public',
+                       'top 5 public school','t5 public','large public, top 5','top five public','top 5 public','t-5 pub. (ba), tier3 pub. (ma)','large public - top 5',
+                       'top 5 public university','top5 public','ba t-5 public, ma tier3 public','top 5 public undergrad',
+                       'large public university (top 6',
+                       't10 public','top 10 public school','top ten public','top-10 public','top 10 public','top 10 public university','top 10 public research',
+                       'top 11 public','top 15 public','top 15 public university','top 15 public school',
+                       'top20 pub','top 20 public','t20 public','top 20 public university','top 20 state university','large top 20 public','top 24 public',                       
+                       'top 25 large public institutio','t-25 public','t25 public','top 25 public','top 25 public busine','top 25 public university',
+                       'top-30 public','top 30 public','top30 public','top 30 public university','top 40 public','top 40 public research',
+                       'top-50 public','top 50 (public)','t50 public','top 50 public', 'top 50 public state school','top 50 public university','top 50 large public',
+                       't100 public','large public (top 100)','public university (top 100)','top 100 public']
+    list_top_regional = ['#1 regional private','#1 regional','#1 regional small pr','top 3 regional college','top 5 regional',
+                         't10 regional','top 10 regional ne','private - top 10 regional','top 10 regional - midwest - pr','top 15 regional','top  20 regional',
+                         't50 regional','top 50 regional','top 10 midwest regional univer',
+                         't5  state','top 10 state school','top 20 state school']
+    list_top_lac = ['top 5 la','t10 lib. arts univ.','private top 10 liber','top 10 lib. arts','top-10 lib arts','top 10 lib arts','top 10 private liber','top 10 college',
+                    'top 15 lib. arts','top 20 l arts','private top 20 liber','liberl arts (top 20)','top 20 la','private top 25 liber','top 25 libarts','top 25 lib arts',
+                    'top 30 lib arts','top 40 ranked libera','top 50 lib arts','t75, private, lib arts','top 100 la']
+    list_top_major = ['top 3 engineering','top 5 engineering','top 5 engin','top 10 engineering,','top 10 engineering','top 10 ug for engineering','private top 5 engine',
+                      'top 15 engineering','top 25 engineering p','top 50 engineering','top 50 engineering school',
+                      'top 3 b-school','top 5 ug business program','top 10 business (public)','public - top 10 business','top 10 business school',
+                      'public, #12 undergrad business','top 15 b-school','top 15 undergraduate business','top 20 business school','public t-20 business school',
+                      'top 25 business scho']
+    list_special = ['large public ivy','public ivy, grad degrees','\\"public ivy\\"',
+                    'uc public','public, uc','top 3 cal state ;)','large public in northern va','public (military college)',
+                    'private r1','public university (r1)',
+                    'best of the west','the best in the west','go blue.','number 1 ranked la s',
+                    'top 3 hbcu',"top 26, women\\'s college"]
