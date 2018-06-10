@@ -1,14 +1,10 @@
 .DS_Store
-data/various/
 decline.docx
-data/LSAC\ pdf
-data/edit
-data/raw
-data/html.7z
 model
 *.pyc
 src/.idea
 *.html
 *.json
 .idea
-data
+data/*
+!data/entry/

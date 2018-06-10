@@ -1,0 +1,134 @@
+,index,name,tuition,enrollment,group,location,rank,public,union
+89,267,Indiana University Bloomington,"$34,845 (out-of-state), $10,533 (in-state)","39,184",national,"Bloomington, IN",#90 in National Universities(tie),TRUE,big10
+64,192,University of Maryland College Park,"$33,606 (out-of-state), $10,399 (in-state)","28,472",national,"College Park, MD",#61 in National Universities(tie),TRUE,big10
+27,81,University of Michigan Ann Arbor,"$47,476 (out-of-state), $14,826 (in-state)","28,983",national,"Ann Arbor, MI",#28 in National Universities,TRUE,big10
+82,246,Michigan State University,"$39,405 (out-of-state), $14,460 (in-state)","39,090",national,"East Lansing, MI",#81 in National Universities(tie),TRUE,big10
+53,159,Ohio State University Columbus,"$29,659 (out-of-state), $10,591 (in-state)","45,831",national,"Columbus, OH",#54 in National Universities(tie),TRUE,big10
+51,153,Pennsylvania State University University Park,"$33,664 (out-of-state), $18,436 (in-state)","41,359",national,"University Park, PA",#52 in National Universities(tie),TRUE,big10
+69,207,Rutgers University New Brunswick,"$30,023 (out-of-state), $14,372 (in-state)","36,168",national,"Piscataway, NJ",#69 in National Universities(tie),TRUE,big10
+52,156,University of Illinois Urbana Champaign,"$31,988 (out-of-state), $15,868 (in-state)","33,932",national,"Champaign, IL",#52 in National Universities(tie),TRUE,big10
+79,237,University of Iowa,"$28,813 (out-of-state), $8,575 (in-state)","24,476",national,"Iowa City, IA",#78 in National Universities(tie),TRUE,big10
+72,216,University of Minnesota Twin Cities,"$26,603 (out-of-state), $14,417 (in-state)","34,871",national,"Minneapolis, MN",#69 in National Universities(tie),TRUE,big10
+56,168,Purdue University West Lafayette,"$28,804 (out-of-state), $10,002 (in-state)","30,043",national,"West Lafayette, IN",#56 in National Universities(tie),TRUE,big10
+12,36,Northwestern University,"$52,678 ","8,353",national,"Evanston, IL",#11 in National Universities(tie),FALSE,big10
+49,147,University of Wisconsin Madison,"$34,782 (out-of-state), $10,533 (in-state)","31,710",national,"Madison, WI",#46 in National Universities(tie),TRUE,big10
+130,390,University of Nebraska Lincoln,"$23,256 (out-of-state), $8,690 (in-state)","20,833",national,"Lincoln, NE",#124 in National Universities(tie),TRUE,big10
+44,132,University of Florida,"$28,658 (out-of-state), $6,381 (in-state)","34,554",national,"Gainesville, FL",#42 in National Universities(tie),TRUE,sec
+54,162,University of Georgia,"$30,392 (out-of-state), $11,818 (in-state)","27,951",national,"Athens, GA",#54 in National Universities(tie),TRUE,sec
+138,414,University of Kentucky,"$28,046 (out-of-state), $11,922 (in-state)","22,621",national,"Lexington, KY",#133 in National Universities(tie),TRUE,sec
+122,366,University of Missouri,"$26,506 (out-of-state), $9,817 (in-state)","25,898",national,"Columbia, MO",#120 in National Universities(tie),TRUE,sec
+107,321,University of South Carolina,"$32,362 (out-of-state), $12,262 (in-state)","25,556",national,"Columbia, SC",#103 in National Universities(tie),TRUE,sec
+108,324,University of Tennessee,"$31,160 (out-of-state), $12,970 (in-state)","22,139",national,"Knoxville, TN",#103 in National Universities(tie),TRUE,sec
+16,48,Vanderbilt University,"$47,664 ","6,871",national,"Nashville, TN",#14 in National Universities(tie),FALSE,sec
+110,330,University of Alabama,"$28,100 (out-of-state), $10,780 (in-state)","32,563",national,"Tuscaloosa, AL",#110 in National Universities(tie),TRUE,sec
+136,408,University of Arkansas,"$24,308 (out-of-state), $9,062 (in-state)","22,548",national,"Fayetteville, AR",#133 in National Universities(tie),TRUE,sec
+102,306,Auburn University,"$29,640 (out-of-state), $10,968 (in-state)","22,658",national,"Auburn, AL",#103 in National Universities(tie),TRUE,sec
+132,396,Louisiana State University Baton Rouge,"$28,051 (out-of-state), $11,374 (in-state)","26,118",national,"Baton Rouge, LA",#133 in National Universities(tie),TRUE,sec
+148,444,University of Mississippi,"$23,554 (out-of-state), $8,290 (in-state)","19,213",national,"University, MS",#145 in National Universities(tie),TRUE,sec
+170,510,Mississippi State University,"$22,358 (out-of-state), $8,138 (in-state)","18,090",national,"Mississippi State, MS",#171 in National Universities(tie),TRUE,sec
+71,213,Texas A&M University College Station,"$30,208 (out-of-state), $10,030 (in-state)","50,735",national,"College Station, TX",#69 in National Universities(tie),TRUE,sec
+114,342,Arizona State University Tempe,"$27,372 (out-of-state), $10,792 (in-state)","42,477",national,"Tempe, AZ",#115 in National Universities(tie),TRUE,pac
+127,381,University of Arizona,"$32,449 (out-of-state), $11,644 (in-state)","34,072",national,"Tucson, AZ",#124 in National Universities(tie),TRUE,pac
+21,63,University of California Berkeley,"$42,112 (out-of-state), $14,098 (in-state)","29,311",national,"Berkeley, CA",#21 in National Universities(tie),TRUE,pac
+106,318,University of Oregon,"$34,611 (out-of-state), $11,571 (in-state)","20,049",national,"Eugene, OR",#103 in National Universities(tie),TRUE,pac
+145,435,Oregon State University,"$29,457 (out-of-state), $10,797 (in-state)","25,327",national,"Corvallis, OR",#145 in National Universities(tie),TRUE,pac
+6,18,Stanford University,"$49,617 ","7,034",national,"Stanford, CA",#5 in National Universities(tie),FALSE,pac
+22,66,University of California Los Angeles,"$41,270 (out-of-state), $13,256 (in-state)","30,873",national,"Los Angeles, CA",#21 in National Universities(tie),TRUE,pac
+23,69,University of Southern California,"$54,259 ","18,794",national,"Los Angeles, CA",#21 in National Universities(tie),FALSE,pac
+59,177,University of Washington,"$35,538 (out-of-state), $10,974 (in-state)","30,933",national,"Seattle, WA",#56 in National Universities(tie),TRUE,pac
+143,429,Washington State University,"$25,817 (out-of-state), $11,391 (in-state)","24,904",national,"Pullman, WA",#140 in National Universities(tie),TRUE,pac
+32,96,College of William and Mary,"$43,099 (out-of-state), $20,287 (in-state)","6,276",national,"Williamsburg, VA",#32 in National Universities(tie),TRUE,public_ivy
+77,231,Miami University Oxford,"$32,768 (out-of-state), $14,578 (in-state)","16,981",national,"Oxford, OH",#78 in National Universities(tie),TRUE,public_ivy
+22,66,University of California Los Angeles,"$41,270 (out-of-state), $13,256 (in-state)","30,873",national,"Los Angeles, CA",#21 in National Universities(tie),TRUE,public_ivy
+27,81,University of Michigan Ann Arbor,"$47,476 (out-of-state), $14,826 (in-state)","28,983",national,"Ann Arbor, MI",#28 in National Universities,TRUE,public_ivy
+30,90,University of North Carolina Chapel Hill,"$34,588 (out-of-state), $9,005 (in-state)","18,523",national,"Chapel Hill, NC",#30 in National Universities(tie),TRUE,public_ivy
+58,174,University of Texas Austin,"$35,766 (out-of-state), $10,136 (in-state)","40,168",national,"Austin, TX",#56 in National Universities(tie),TRUE,public_ivy
+101,303,University of Vermont,"$41,356 (out-of-state), $17,740 (in-state)","11,159",national,"Burlington, VT",#97 in National Universities(tie),TRUE,public_ivy
+25,75,University of Virginia,"$46,975 (out-of-state), $16,146 (in-state)","16,331",national,"Charlottesville, VA",#25 in National Universities(tie),TRUE,public_ivy
+21,63,University of California Berkeley,"$42,112 (out-of-state), $14,098 (in-state)","29,311",national,"Berkeley, CA",#21 in National Universities(tie),TRUE,flagship
+25,75,University of Virginia,"$46,975 (out-of-state), $16,146 (in-state)","16,331",national,"Charlottesville, VA",#25 in National Universities(tie),TRUE,flagship
+27,81,University of Michigan Ann Arbor,"$47,476 (out-of-state), $14,826 (in-state)","28,983",national,"Ann Arbor, MI",#28 in National Universities,TRUE,flagship
+30,90,University of North Carolina Chapel Hill,"$34,588 (out-of-state), $9,005 (in-state)","18,523",national,"Chapel Hill, NC",#30 in National Universities(tie),TRUE,flagship
+44,132,University of Florida,"$28,658 (out-of-state), $6,381 (in-state)","34,554",national,"Gainesville, FL",#42 in National Universities(tie),TRUE,flagship
+49,147,University of Wisconsin Madison,"$34,782 (out-of-state), $10,533 (in-state)","31,710",national,"Madison, WI",#46 in National Universities(tie),TRUE,flagship
+51,153,Pennsylvania State University University Park,"$33,664 (out-of-state), $18,436 (in-state)","41,359",national,"University Park, PA",#52 in National Universities(tie),TRUE,flagship
+52,156,University of Illinois Urbana Champaign,"$31,988 (out-of-state), $15,868 (in-state)","33,932",national,"Champaign, IL",#52 in National Universities(tie),TRUE,flagship
+53,159,Ohio State University Columbus,"$29,659 (out-of-state), $10,591 (in-state)","45,831",national,"Columbus, OH",#54 in National Universities(tie),TRUE,flagship
+54,162,University of Georgia,"$30,392 (out-of-state), $11,818 (in-state)","27,951",national,"Athens, GA",#54 in National Universities(tie),TRUE,flagship
+56,168,Purdue University West Lafayette,"$28,804 (out-of-state), $10,002 (in-state)","30,043",national,"West Lafayette, IN",#56 in National Universities(tie),TRUE,flagship
+57,171,University of Connecticut,"$36,948 (out-of-state), $14,880 (in-state)","19,324",national,"Storrs, CT",#56 in National Universities(tie),TRUE,flagship
+58,174,University of Texas Austin,"$35,766 (out-of-state), $10,136 (in-state)","40,168",national,"Austin, TX",#56 in National Universities(tie),TRUE,flagship
+59,177,University of Washington,"$35,538 (out-of-state), $10,974 (in-state)","30,933",national,"Seattle, WA",#56 in National Universities(tie),TRUE,flagship
+64,192,University of Maryland College Park,"$33,606 (out-of-state), $10,399 (in-state)","28,472",national,"College Park, MD",#61 in National Universities(tie),TRUE,flagship
+69,207,Rutgers University New Brunswick,"$30,023 (out-of-state), $14,372 (in-state)","36,168",national,"Piscataway, NJ",#69 in National Universities(tie),TRUE,flagship
+72,216,University of Minnesota Twin Cities,"$26,603 (out-of-state), $14,417 (in-state)","34,871",national,"Minneapolis, MN",#69 in National Universities(tie),TRUE,flagship
+76,228,University of Massachusetts Amherst,"$33,662 (out-of-state), $15,596 (in-state)","23,373",national,"Amherst, MA",#75 in National Universities(tie),TRUE,flagship
+79,237,University of Iowa,"$28,813 (out-of-state), $8,575 (in-state)","24,476",national,"Iowa City, IA",#78 in National Universities(tie),TRUE,flagship
+85,255,University of Delaware,"$32,250 (out-of-state), $12,830 (in-state)","18,374",national,"Newark, DE",#81 in National Universities(tie),TRUE,flagship
+89,267,Indiana University Bloomington,"$34,845 (out-of-state), $10,533 (in-state)","39,184",national,"Bloomington, IN",#90 in National Universities(tie),TRUE,flagship
+91,273,University of Colorado Boulder,"$35,079 (out-of-state), $11,531 (in-state)","27,846",national,"Boulder, CO",#90 in National Universities(tie),TRUE,flagship
+99,297,University at Buffalo SUNY,"$26,270 (out-of-state), $9,770 (in-state)","20,411",national,"Buffalo, NY",#97 in National Universities(tie),TRUE,flagship
+100,300,University of Oklahoma,"$24,443 (out-of-state), $9,062 (in-state)","22,436",national,"Norman, OK",#97 in National Universities(tie),TRUE,flagship
+101,303,University of Vermont,"$41,356 (out-of-state), $17,740 (in-state)","11,159",national,"Burlington, VT",#97 in National Universities(tie),TRUE,flagship
+105,315,University of New Hampshire,"$32,637 (out-of-state), $18,067 (in-state)","12,871",national,"Durham, NH",#103 in National Universities(tie),TRUE,flagship
+106,318,University of Oregon,"$34,611 (out-of-state), $11,571 (in-state)","20,049",national,"Eugene, OR",#103 in National Universities(tie),TRUE,flagship
+107,321,University of South Carolina,"$32,362 (out-of-state), $12,262 (in-state)","25,556",national,"Columbia, SC",#103 in National Universities(tie),TRUE,flagship
+108,324,University of Tennessee,"$31,160 (out-of-state), $12,970 (in-state)","22,139",national,"Knoxville, TN",#103 in National Universities(tie),TRUE,flagship
+110,330,University of Alabama,"$28,100 (out-of-state), $10,780 (in-state)","32,563",national,"Tuscaloosa, AL",#110 in National Universities(tie),TRUE,flagship
+113,339,University of Utah,"$26,408 (out-of-state), $9,166 (in-state)","23,789",national,"Salt Lake City, UT",#110 in National Universities(tie),TRUE,flagship
+114,342,Arizona State University Tempe,"$27,372 (out-of-state), $10,792 (in-state)","42,477",national,"Tempe, AZ",#115 in National Universities(tie),TRUE,flagship
+117,351,University of Kansas,"$26,592 (out-of-state), $10,824 (in-state)","19,262",national,"Lawrence, KS",#115 in National Universities(tie),TRUE,flagship
+122,366,University of Missouri,"$26,506 (out-of-state), $9,817 (in-state)","25,898",national,"Columbia, MO",#120 in National Universities(tie),TRUE,flagship
+130,390,University of Nebraska Lincoln,"$23,256 (out-of-state), $8,690 (in-state)","20,833",national,"Lincoln, NE",#124 in National Universities(tie),TRUE,flagship
+132,396,Louisiana State University Baton Rouge,"$28,051 (out-of-state), $11,374 (in-state)","26,118",national,"Baton Rouge, LA",#133 in National Universities(tie),TRUE,flagship
+135,405,Rutgers University Newark,"$29,480 (out-of-state), $13,829 (in-state)","8,170",national,"Newark, NJ",#133 in National Universities(tie),TRUE,flagship
+136,408,University of Arkansas,"$24,308 (out-of-state), $9,062 (in-state)","22,548",national,"Fayetteville, AR",#133 in National Universities(tie),TRUE,flagship
+138,414,University of Kentucky,"$28,046 (out-of-state), $11,922 (in-state)","22,621",national,"Lexington, KY",#133 in National Universities(tie),TRUE,flagship
+148,444,University of Mississippi,"$23,554 (out-of-state), $8,290 (in-state)","19,213",national,"University, MS",#145 in National Universities(tie),TRUE,flagship
+157,471,University of Rhode Island,"$28,874 (out-of-state), $12,884 (in-state)","14,801",national,"Kingston, RI",#156 in National Universities(tie),TRUE,flagship
+160,480,University of Alabama Birmingham,"$23,790 (out-of-state), $10,410 (in-state)","12,369",national,"Birmingham, AL",#159 in National Universities(tie),TRUE,flagship
+161,483,University of Hawaii Manoa,"$33,764 (out-of-state), $11,732 (in-state)","13,132",national,"Honolulu, HI",#159 in National Universities(tie),TRUE,flagship
+173,519,University of Idaho,"$23,812 (out-of-state), $7,488 (in-state)","9,586",national,"Moscow, ID",#171 in National Universities(tie),TRUE,flagship
+184,552,University of Maine,"$30,282 (out-of-state), $10,902 (in-state)","9,323",national,"Orono, ME",#181 in National Universities(tie),TRUE,flagship
+194,582,University of New Mexico,"$22,412 (out-of-state), $7,150 (in-state)","20,215",national,"Albuquerque, NM",#192 in National Universities(tie),TRUE,flagship
+195,585,University of North Dakota,"$21,462 (out-of-state), $9,862 (in-state)","11,255",national,"Grand Forks, ND",#192 in National Universities(tie),TRUE,flagship
+25,75,Barnard College,"$52,662 ","2,588",lac,"New York, NY",#26 in National Liberal Arts Colleges(tie),FALSE,sisters
+31,93,Bryn Mawr College,"$50,500 ","1,381",lac,"Bryn Mawr, PA",#32 in National Liberal Arts Colleges,FALSE,sisters
+36,108,Mount Holyoke College,"$47,940 ","2,199",lac,"South Hadley, MA",#36 in National Liberal Arts Colleges(tie),FALSE,sisters
+14,42,Smith College,"$50,044 ","2,514",lac,"Northampton, MA",#12 in National Liberal Arts Colleges(tie),FALSE,sisters
+4,12,Wellesley College,"$51,148 ","2,347",lac,"Wellesley, MA",#3 in National Liberal Arts Colleges(tie),FALSE,sisters
+16,48,Vassar College,"$55,210 ","2,424",lac,"Poughkeepsie, NY",#12 in National Liberal Arts Colleges(tie),FALSE,sisters
+74,222,Baylor University,"$43,790 ","14,348",national,"Waco, TX",#75 in National Universities(tie),FALSE,big10
+115,345,Iowa State University,"$22,256 (out-of-state), $8,420 (in-state)","30,671",national,"Ames, IA",#115 in National Universities(tie),TRUE,big10
+117,351,University of Kansas,"$26,592 (out-of-state), $10,824 (in-state)","19,262",national,"Lawrence, KS",#115 in National Universities(tie),TRUE,big10
+144,432,Kansas State University,"$24,775 (out-of-state), $9,874 (in-state)","19,472",national,"Manhattan, KS",#145 in National Universities(tie),TRUE,big10
+155,465,Oklahoma State University,"$23,776 (out-of-state), $8,738 (in-state)","21,093",national,"Stillwater, OK",#156 in National Universities(tie),TRUE,big10
+100,300,University of Oklahoma,"$24,443 (out-of-state), $9,062 (in-state)","22,436",national,"Norman, OK",#97 in National Universities(tie),TRUE,big10
+78,234,Texas Christian University,"$44,760 ","8,891",national,"Fort Worth, TX",#78 in National Universities(tie),FALSE,big10
+58,174,University of Texas Austin,"$35,766 (out-of-state), $10,136 (in-state)","40,168",national,"Austin, TX",#56 in National Universities(tie),TRUE,big10
+177,531,Texas Tech University,"$23,011 (out-of-state), $10,771 (in-state)","29,963",national,"Lubbock, TX",#176 in National Universities(tie),TRUE,big10
+190,570,West Virginia University,"$23,616 (out-of-state), $8,376 (in-state)","22,350",national,"Morgantown, WV",#187 in National Universities(tie),TRUE,big10
+23,69,University of Southern California,"$54,259 ","18,794",national,"Los Angeles, CA",#21 in National Universities(tie),FALSE,west_ivy
+6,18,Stanford University,"$49,617 ","7,034",national,"Stanford, CA",#5 in National Universities(tie),FALSE,west_ivy
+23,69,Colorado College,"$53,238 ","2,101",lac,"Colorado Springs, CO",#23 in National Liberal Arts Colleges(tie),FALSE,west_ivy
+6,18,Pomona College,"$51,075 ","1,660",lac,"Claremont, CA",#6 in National Liberal Arts Colleges(tie),FALSE,west_ivy
+8,24,Claremont McKenna College,"$52,825 ","1,347",lac,"Claremont, CA",#8 in National Liberal Arts Colleges(tie),FALSE,west_ivy
+81,246,Reed College,"$52,150 ",,lac,"Portland, OR",#82 in National Liberal Arts Colleges(tie),FALSE,west_ivy
+1,3,Amherst College,"$54,310 ","1,849",lac,"Amherst, MA",#2 in National Liberal Arts Colleges,FALSE,little_ivy
+22,66,Bates College,"$52,042 ","1,780",lac,"Lewiston, ME",#23 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+2,6,Bowdoin College,"$51,848 ","1,806",lac,"Brunswick, ME",#3 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+32,96,Bucknell University,"$53,986 ","3,571",lac,"Lewisburg, PA",#33 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+12,36,Colgate University,"$53,980 ","2,882",lac,"Hamilton, NY",#12 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+47,141,Connecticut College,"$52,850 ","1,865",lac,"New London, CT",#46 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+11,33,Colby College,"$53,120 ","1,879",lac,"Waterville, ME",#12 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+18,54,Hamilton College,"$52,770 ","1,879",lac,"Clinton, NY",#18 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+19,57,Haverford College,"$52,754 ","1,268",lac,"Haverford, PA",#18 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+35,105,Lafayette College,"$50,850 ","2,550",lac,"Easton, PA",#36 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+5,15,Middlebury College,"$52,496 ","2,532",lac,"Middlebury, VT",#6 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+3,9,Swarthmore College,"$50,822 ","1,543",lac,"Swarthmore, PA",#3 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+44,132,Trinity College,"$54,770 ","2,259",lac,"Hartford, CT",#44 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+37,111,Union College,"$53,490 ","2,203",lac,"Schenectady, NY",#36 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+16,48,Vassar College,"$55,210 ","2,424",lac,"Poughkeepsie, NY",#12 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+0,0,Williams College,"$53,550 ","2,076",lac,"Williamstown, MA",#1 in National Liberal Arts Colleges,FALSE,little_ivy
+21,63,Wesleyan University,"$52,474 ","2,971",lac,"Middletown, CT",#21 in National Liberal Arts Colleges(tie),FALSE,little_ivy
+28,84,Tufts University,"$54,318 ","5,508",national,"Medford, MA",#29 in National Universities,FALSE,little_ivy

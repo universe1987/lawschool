@@ -1,0 +1,610 @@
+,index_x,College Name or Type,State,City_x,big10,sisters,pac,hbcu,public_ivy,west_ivy,little_ivy,sec,flagship,id,City_y,State_acronym,Unnamed: 0,Unnamed: 0.1,enrollment,group,index_y,location,name,public,rank,tuition,union
+406,559,"#2 public, big 10",michigan,ann arbor,1,,,,,,,,,560,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+369,474,b10,texas,,1,,,,,,,,,475,,,,,,,,,,,,,
+176,300,big 10,illinois,,1,,,,,,,,,301,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+201,318,big 10,illinois,,1,,,,,,,,,319,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+235,344,big 10,illinois,,1,,,,,,,,,345,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+239,346,big 10,illinois,,1,,,,,,,,,347,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+251,356,big 10,illinois,,1,,,,,,,,,357,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+284,380,big 10,illinois,,1,,,,,,,,,381,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+190,310,big 10,illinois,champaign,1,,,,,,,,,311,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+188,309,big 10,illinois,champaign-urbana,1,,,,,,,,,310,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+301,393,big 10,illinois,chi town,1,,,,,,,,,394,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+206,321,big 10,illinois,chicago,1,,,,,,,,,322,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+261,363,big 10,illinois,chicago,1,,,,,,,,,364,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+268,367,big 10,illinois,chicago,1,,,,,,,,,368,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+276,373,big 10,illinois,chicago,1,,,,,,,,,374,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+278,374,big 10,illinois,chicago,1,,,,,,,,,375,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+298,391,big 10,illinois,chicago,1,,,,,,,,,392,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+229,338,big 10,illinois,evanston,1,,,,,,,,,339,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+271,370,big 10,illinois,new lenox,1,,,,,,,,,371,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+198,315,big 10,indiana,,1,,,,,,,,,316,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+218,331,big 10,indiana,,1,,,,,,,,,332,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+250,355,big 10,indiana,,1,,,,,,,,,356,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+280,376,big 10,indiana,,1,,,,,,,,,377,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+274,372,big 10,indiana,indianapolis,1,,,,,,,,,373,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+192,311,big 10,iowa,iowa city,1,,,,,,,,,312,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+178,301,big 10,michigan,,1,,,,,,,,,302,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+196,314,big 10,michigan,,1,,,,,,,,,315,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+225,336,big 10,michigan,,1,,,,,,,,,337,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+246,352,big 10,michigan,,1,,,,,,,,,353,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+262,364,big 10,michigan,,1,,,,,,,,,365,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+264,365,big 10,michigan,,1,,,,,,,,,366,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+291,386,big 10,michigan,,1,,,,,,,,,387,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+304,396,big 10,michigan,,1,,,,,,,,,397,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+182,304,big 10,michigan,ann arbor,1,,,,,,,,,305,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+210,325,big 10,michigan,ann arbor,1,,,,,,,,,326,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+237,345,big 10,michigan,ann arbor,1,,,,,,,,,346,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+213,326,big 10,michigan,e. lansing,1,,,,,,,,,327,east lansing,mi,3,82,"39,090",national,246,"East Lansing, MI",Michigan State University,TRUE,81,"$39,405 (out-of-state), $14,460 (in-state)",big10
+220,332,big 10,michigan,east lansing,1,,,,,,,,,333,east lansing,mi,3,82,"39,090",national,246,"East Lansing, MI",Michigan State University,TRUE,81,"$39,405 (out-of-state), $14,460 (in-state)",big10
+222,333,big 10,michigan,east lansing,1,,,,,,,,,334,east lansing,mi,3,82,"39,090",national,246,"East Lansing, MI",Michigan State University,TRUE,81,"$39,405 (out-of-state), $14,460 (in-state)",big10
+258,361,big 10,michigan,east lansing,1,,,,,,,,,362,east lansing,mi,3,82,"39,090",national,246,"East Lansing, MI",Michigan State University,TRUE,81,"$39,405 (out-of-state), $14,460 (in-state)",big10
+256,360,big 10,minnesota,,1,,,,,,,,,361,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+273,371,big 10,minnesota,,1,,,,,,,,,372,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+180,302,big 10,minnesota,minneapolis,1,,,,,,,,,303,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+199,316,big 10,minnesota,minneapolis,1,,,,,,,,,317,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+231,340,big 10,minnesota,minneapolis,1,,,,,,,,,341,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+279,375,big 10,minnesota,small town,1,,,,,,,,,376,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+186,307,big 10,new jersey,,1,,,,,,,,,308,piscataway,nj,6,69,"36,168",national,207,"Piscataway, NJ",Rutgers University New Brunswick,TRUE,69,"$30,023 (out-of-state), $14,372 (in-state)",big10
+209,324,big 10,ohio,,1,,,,,,,,,325,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+245,351,big 10,ohio,,1,,,,,,,,,352,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+255,359,big 10,ohio,cleveland,1,,,,,,,,,360,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+215,328,big 10,ohio,columbus,1,,,,,,,,,329,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+248,353,big 10,ohio,columbus,1,,,,,,,,,354,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+259,362,big 10,pennsylvania,,1,,,,,,,,,363,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+290,385,big 10,pennsylvania,philadelphia,1,,,,,,,,,386,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+224,335,big 10,pennsylvania,university park,1,,,,,,,,,336,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+216,329,big 10,wisconsin,,1,,,,,,,,,330,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+217,330,big 10,wisconsin,,1,,,,,,,,,331,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+234,343,big 10,wisconsin,,1,,,,,,,,,344,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+254,358,big 10,wisconsin,,1,,,,,,,,,359,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+195,313,big 10,wisconsin,madison,1,,,,,,,,,314,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+233,342,big 10,wisconsin,madison,1,,,,,,,,,343,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+418,583,big 10 large state,pennsylvania,,1,,,,,,,,,584,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+388,527,big 10 private,illinois,university town,1,,,,,,,,,528,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+392,539,big 10 public,michigan,,1,,,,,,,,,540,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+383,523,big 10 state univers,minnesota,minneapolis,1,,,,,,,,,524,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+365,470,big 10 university,michigan,"east lansing, mi",1,,,,,,,,,471,east lansing,mi,3,82,"39,090",national,246,"East Lansing, MI",Michigan State University,TRUE,81,"$39,405 (out-of-state), $14,460 (in-state)",big10
+314,415,"big 10, public",illinois,urbana,1,,,,,,,,,416,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+326,440,big 12,illinois,,1,,,,,,,,,441,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+327,440,big 12,illinois,,1,,,,,,,,,441,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+328,441,big 12,iowa,,1,,,,,,,,,442,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+329,441,big 12,iowa,,1,,,,,,,,,442,ames,ia,101,115,"30,671",national,345,"Ames, IA",Iowa State University,TRUE,115,"$22,256 (out-of-state), $8,420 (in-state)",big10
+332,444,big 12,kansas,lawrence,1,,,,,,,,,445,lawrence,ks,102,117,"19,262",national,351,"Lawrence, KS",University of Kansas,TRUE,115,"$26,592 (out-of-state), $10,824 (in-state)",big10
+333,444,big 12,kansas,lawrence,1,,,,,,,,,445,manhattan,ks,103,144,"19,472",national,432,"Manhattan, KS",Kansas State University,TRUE,145,"$24,775 (out-of-state), $9,874 (in-state)",big10
+340,448,big 12,kansas,small city,1,,,,,,,,,449,lawrence,ks,102,117,"19,262",national,351,"Lawrence, KS",University of Kansas,TRUE,115,"$26,592 (out-of-state), $10,824 (in-state)",big10
+341,448,big 12,kansas,small city,1,,,,,,,,,449,manhattan,ks,103,144,"19,472",national,432,"Manhattan, KS",Kansas State University,TRUE,145,"$24,775 (out-of-state), $9,874 (in-state)",big10
+319,434,big 12,texas,,1,,,,,,,,,435,austin,tx,107,58,"40,168",national,174,"Austin, TX",University of Texas Austin,TRUE,56,"$35,766 (out-of-state), $10,136 (in-state)",big10
+337,446,big 12,texas,,1,,,,,,,,,447,austin,tx,107,58,"40,168",national,174,"Austin, TX",University of Texas Austin,TRUE,56,"$35,766 (out-of-state), $10,136 (in-state)",big10
+346,451,big 12,texas,,1,,,,,,,,,452,austin,tx,107,58,"40,168",national,174,"Austin, TX",University of Texas Austin,TRUE,56,"$35,766 (out-of-state), $10,136 (in-state)",big10
+358,457,big 12,texas,,1,,,,,,,,,458,austin,tx,107,58,"40,168",national,174,"Austin, TX",University of Texas Austin,TRUE,56,"$35,766 (out-of-state), $10,136 (in-state)",big10
+353,455,big 12,texas,austin,1,,,,,,,,,456,austin,tx,107,58,"40,168",national,174,"Austin, TX",University of Texas Austin,TRUE,56,"$35,766 (out-of-state), $10,136 (in-state)",big10
+6,28,big ten,illinois,,1,,,,,,,,,29,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+53,65,big ten,illinois,,1,,,,,,,,,66,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+76,83,big ten,illinois,,1,,,,,,,,,84,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+85,90,big ten,illinois,,1,,,,,,,,,91,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+101,99,big ten,illinois,,1,,,,,,,,,100,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+105,101,big ten,illinois,,1,,,,,,,,,102,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+108,103,big ten,illinois,,1,,,,,,,,,104,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+161,144,big ten,illinois,,1,,,,,,,,,145,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+164,146,big ten,illinois,,1,,,,,,,,,147,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+28,42,big ten,illinois,champaign,1,,,,,,,,,43,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+92,94,big ten,illinois,champaign,1,,,,,,,,,95,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+121,112,big ten,illinois,champaign,1,,,,,,,,,113,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+5,27,big ten,illinois,chicago,1,,,,,,,,,28,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+9,29,big ten,illinois,chicago,1,,,,,,,,,30,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+38,50,big ten,illinois,chicago,1,,,,,,,,,51,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+88,91,big ten,illinois,chicago,1,,,,,,,,,92,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+97,96,big ten,illinois,chicago,1,,,,,,,,,97,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+132,119,big ten,illinois,chicago,1,,,,,,,,,120,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+136,122,big ten,illinois,chicago,1,,,,,,,,,123,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+133,120,big ten,indiana,,1,,,,,,,,,121,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+147,133,big ten,indiana,,1,,,,,,,,,134,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+153,138,big ten,indiana,,1,,,,,,,,,139,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+79,85,big ten,indiana,bloomington,1,,,,,,,,,86,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+73,80,big ten,indiana,indianapolis,1,,,,,,,,,81,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+13,32,big ten,iowa,,1,,,,,,,,,33,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+98,97,big ten,iowa,,1,,,,,,,,,98,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+67,75,big ten,iowa,iowa city,1,,,,,,,,,76,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+90,93,big ten,iowa,iowa city,1,,,,,,,,,94,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+94,95,big ten,iowa,iowa city,1,,,,,,,,,96,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+10,30,big ten,michigan,,1,,,,,,,,,31,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+15,33,big ten,michigan,,1,,,,,,,,,34,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+17,34,big ten,michigan,,1,,,,,,,,,35,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+56,67,big ten,michigan,,1,,,,,,,,,68,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+63,73,big ten,michigan,,1,,,,,,,,,74,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+65,74,big ten,michigan,,1,,,,,,,,,75,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+103,100,big ten,michigan,,1,,,,,,,,,101,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+114,108,big ten,michigan,,1,,,,,,,,,109,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+118,110,big ten,michigan,,1,,,,,,,,,111,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+127,117,big ten,michigan,,1,,,,,,,,,118,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+129,118,big ten,michigan,,1,,,,,,,,,119,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+151,137,big ten,michigan,,1,,,,,,,,,138,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+158,142,big ten,michigan,,1,,,,,,,,,143,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+22,37,big ten,michigan,ann arbor,1,,,,,,,,,38,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+154,139,big ten,michigan,ann arbor,1,,,,,,,,,140,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+20,35,big ten,michigan,detroit,1,,,,,,,,,36,east lansing,mi,3,82,"39,090",national,246,"East Lansing, MI",Michigan State University,TRUE,81,"$39,405 (out-of-state), $14,460 (in-state)",big10
+116,109,big ten,michigan,suburban,1,,,,,,,,,110,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+171,152,big ten,michigan,wilderness,1,,,,,,,,,153,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+36,49,big ten,minnesota,minneapolis,1,,,,,,,,,50,minneapolis,mn,9,72,"34,871",national,216,"Minneapolis, MN",University of Minnesota Twin Cities,TRUE,69,"$26,603 (out-of-state), $14,417 (in-state)",big10
+43,55,big ten,new jersey,,1,,,,,,,,,56,piscataway,nj,6,69,"36,168",national,207,"Piscataway, NJ",Rutgers University New Brunswick,TRUE,69,"$30,023 (out-of-state), $14,372 (in-state)",big10
+113,107,big ten,new jersey,,1,,,,,,,,,108,piscataway,nj,6,69,"36,168",national,207,"Piscataway, NJ",Rutgers University New Brunswick,TRUE,69,"$30,023 (out-of-state), $14,372 (in-state)",big10
+173,153,big ten,new jersey,,1,,,,,,,,,154,piscataway,nj,6,69,"36,168",national,207,"Piscataway, NJ",Rutgers University New Brunswick,TRUE,69,"$30,023 (out-of-state), $14,372 (in-state)",big10
+163,145,big ten,new jersey,suburban nyc,1,,,,,,,,,146,piscataway,nj,6,69,"36,168",national,207,"Piscataway, NJ",Rutgers University New Brunswick,TRUE,69,"$30,023 (out-of-state), $14,372 (in-state)",big10
+41,53,big ten,ohio,,1,,,,,,,,,54,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+120,111,big ten,ohio,,1,,,,,,,,,112,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+146,132,big ten,ohio,,1,,,,,,,,,133,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+33,46,big ten,ohio,columbus,1,,,,,,,,,47,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+80,86,big ten,oklahoma,,1,,,,,,,,,87,stillwater,ok,104,155,"21,093",national,465,"Stillwater, OK",Oklahoma State University,TRUE,156,"$23,776 (out-of-state), $8,738 (in-state)",big10
+81,86,big ten,oklahoma,,1,,,,,,,,,87,norman,ok,105,100,"22,436",national,300,"Norman, OK",University of Oklahoma,TRUE,97,"$24,443 (out-of-state), $9,062 (in-state)",big10
+84,89,big ten,pennsylvania,,1,,,,,,,,,90,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+142,128,big ten,pennsylvania,,1,,,,,,,,,129,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+145,131,big ten,pennsylvania,,1,,,,,,,,,132,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+34,47,big ten,wisconsin,,1,,,,,,,,,48,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+40,52,big ten,wisconsin,,1,,,,,,,,,53,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+42,54,big ten,wisconsin,,1,,,,,,,,,55,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+62,72,big ten,wisconsin,,1,,,,,,,,,73,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+71,78,big ten,wisconsin,,1,,,,,,,,,79,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+75,82,big ten,wisconsin,,1,,,,,,,,,83,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+126,116,big ten,wisconsin,,1,,,,,,,,,117,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+144,130,big ten,wisconsin,,1,,,,,,,,,131,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+170,151,big ten,wisconsin,,1,,,,,,,,,152,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+3,26,big ten,wisconsin,madison,1,,,,,,,,,27,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+78,84,big ten,wisconsin,madison,1,,,,,,,,,85,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+111,105,big ten,wisconsin,madison,1,,,,,,,,,106,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+124,114,big ten,wisconsin,madison,1,,,,,,,,,115,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+134,121,big ten,wisconsin,madison,1,,,,,,,,,122,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+140,126,big ten,wisconsin,madison,1,,,,,,,,,127,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+150,136,big ten,wisconsin,madison,1,,,,,,,,,137,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+167,148,big ten,wisconsin,madison,1,,,,,,,,,149,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+426,599,big ten private,illinois,evanston,1,,,,,,,,,600,evanston,il,11,12,"8,353",national,36,"Evanston, IL",Northwestern University,FALSE,11,"$52,678 ",big10
+415,575,big ten public,west virginia,major city,1,,,,,,,,,576,morgantown,wv,109,190,"22,350",national,570,"Morgantown, WV",West Virginia University,TRUE,187,"$23,616 (out-of-state), $8,376 (in-state)",big10
+427,603,"big ten, public",michigan,,1,,,,,,,,,604,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+397,544,big xii,texas,south,1,,,,,,,,,545,austin,tx,107,58,"40,168",national,174,"Austin, TX",University of Texas Austin,TRUE,56,"$35,766 (out-of-state), $10,136 (in-state)",big10
+308,408,big-10,iowa,iowa city,1,,,,,,,,,409,iowa city,ia,8,79,"24,476",national,237,"Iowa City, IA",University of Iowa,TRUE,78,"$28,813 (out-of-state), $8,575 (in-state)",big10
+378,505,big10,illinois,,1,,,,,,,,,506,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+381,507,big10,illinois,,1,,,,,,,,,508,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+375,503,big10,michigan,,1,,,,,,,,,504,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+380,506,big10,ohio,,1,,,,,,,,,507,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+377,504,big10,wisconsin,,1,,,,,,,,,505,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+390,532,bigten,illinois,,1,,,,,,,,,533,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+421,591,bs-private ms-big 10,wisconsin,,1,,,,,,,,,592,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+413,572,fmr big 12,nebraska,lincoln,1,,,,,,,,,573,lincoln,ne,13,130,"20,833",national,390,"Lincoln, NE",University of Nebraska Lincoln,TRUE,124,"$23,256 (out-of-state), $8,690 (in-state)",big10
+0,24,large state big ten,illinois,chicago,1,,,,,,,,,25,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+401,550,public (big ten),pennsylvania,rural,1,,,,,,,,,551,university park,pa,5,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",big10
+360,465,"public, big ten",ohio,columbus,1,,,,,,,,,466,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+411,569,public/ big ten,indiana,bloomington,1,,,,,,,,,570,west lafayette,in,10,56,"30,043",national,168,"West Lafayette, IN",Purdue University West Lafayette,TRUE,56,"$28,804 (out-of-state), $10,002 (in-state)",big10
+385,526,public/big ten,michigan,,1,,,,,,,,,527,ann arbor,mi,2,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",big10
+384,525,public/big ten,ohio,kent,1,,,,,,,,,526,columbus,oh,4,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",big10
+311,413,state school  - big10,illinois,chicago,1,,,,,,,,,414,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+422,594,state university (big 12),illinois,,1,,,,,,,,,595,champaign,il,7,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",big10
+389,528,top public/big10,wisconsin,madison,1,,,,,,,,,529,madison,wi,12,49,"31,710",national,147,"Madison, WI",University of Wisconsin Madison,TRUE,46,"$34,782 (out-of-state), $10,533 (in-state)",big10
+16,459,flagship,arkansas,fayetteville,,,,,,,,,1,460,fayetteville,ar,83,136,"22,548",national,408,"Fayetteville, AR",University of Arkansas,TRUE,133,"$24,308 (out-of-state), $9,062 (in-state)",flagship
+15,458,flagship,new hampshire,,,,,,,,,,1,459,durham,nh,71,105,"12,871",national,315,"Durham, NH",University of New Hampshire,TRUE,3,"$32,637 (out-of-state), $18,067 (in-state)",flagship
+27,589,flagship land-grant,arizona,,,,,,,,,,1,590,tempe,az,77,114,"42,477",national,342,"Tempe, AZ",Arizona State University Tempe,TRUE,115,"$27,372 (out-of-state), $10,792 (in-state)",flagship
+22,515,flagship public,connecticut,,,,,,,,,,1,516,storrs,ct,57,57,"19,324",national,171,"Storrs, CT",University of Connecticut,TRUE,56,"$36,948 (out-of-state), $14,880 (in-state)",flagship
+30,602,flagship state school,illinois,chicago,,,,,,,,,1,603,champaign,il,53,52,"33,932",national,156,"Champaign, IL",University of Illinois Urbana Champaign,TRUE,52,"$31,988 (out-of-state), $15,868 (in-state)",flagship
+17,484,large southern public flagship,california,,,,,,,,,,1,485,berkeley,ca,46,21,"29,311",national,63,"Berkeley, CA",University of California Berkeley,TRUE,21,"$42,112 (out-of-state), $14,098 (in-state)",flagship
+20,513,public flagship,oregon,,,,,,,,,,1,514,eugene,or,72,106,"20,049",national,318,"Eugene, OR",University of Oregon,TRUE,3,"$34,611 (out-of-state), $11,571 (in-state)",flagship
+18,511,public flagship,washington,seattle,,,,,,,,,1,512,seattle,wa,59,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",flagship
+0,398,public/flagship,pennsylvania,philly,,,,,,,,,1,399,university park,pa,52,51,"41,359",national,153,"University Park, PA",Pennsylvania State University University Park,TRUE,52,"$33,664 (out-of-state), $18,436 (in-state)",flagship
+3,421,state flagship,georgia,,,,,,,,,,1,422,athens,ga,55,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",flagship
+1,419,state flagship,mississippi,,,,,,,,,,1,420,university,ms,86,148,"19,213",national,444,"University, MS",University of Mississippi,TRUE,145,"$23,554 (out-of-state), $8,290 (in-state)",flagship
+11,429,state flagship,ohio,small town,,,,,,,,,1,430,columbus,oh,54,53,"45,831",national,159,"Columbus, OH",Ohio State University Columbus,TRUE,54,"$29,659 (out-of-state), $10,591 (in-state)",flagship
+4,422,state flagship,virginia,,,,,,,,,,1,423,charlottesville,va,47,25,"16,331",national,75,"Charlottesville, VA",University of Virginia,TRUE,25,"$46,975 (out-of-state), $16,146 (in-state)",flagship
+13,431,state flagship public,tennessee,,,,,,,,,,1,432,knoxville,tn,74,108,"22,139",national,324,"Knoxville, TN",University of Tennessee,TRUE,3,"$31,160 (out-of-state), $12,970 (in-state)",flagship
+29,601,top public  (flagship),georgia,,,,,,,,,,1,602,athens,ga,55,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",flagship
+233,485,4 year hbcu,tennessee,nashville,,,,1,,,,,,486,nashville,tn,9,,723,hbcu,27,"Nashville, TN",Fisk University,FALSE,9,"$21,480 ",hbcu
+234,485,4 year hbcu,tennessee,nashville,,,,1,,,,,,486,nashville,tn,36,,"7,007",hbcu,108,"Nashville, TN",Tennessee State University,TRUE,34,"$20,178 (out-of-state), $7,458 (in-state)",hbcu
+106,188,hbcu,alabama,,,,,1,,,,,,189,,,,,,,,,,,,,
+158,211,hbcu,delaware,,,,,1,,,,,,212,dover,de,12,,"3,993",hbcu,36,"Dover, DE",Delaware State University,TRUE,13,"$16,904 (out-of-state), $7,868 (in-state)",hbcu
+129,198,hbcu,florida,,,,,1,,,,,,199,,,,,,,,,,,,,
+142,205,hbcu,florida,,,,,1,,,,,,206,,,,,,,,,,,,,
+112,190,hbcu,florida,orlando,,,,1,,,,,,191,daytona beach,fl,24,,"3,796",hbcu,72,"Daytona Beach, FL",Bethune Cookman University,FALSE,25,"$14,410 ",hbcu
+120,193,hbcu,florida,tallahassee,,,,1,,,,,,194,tallahassee,fl,5,,"7,769",hbcu,15,"Tallahassee, FL",Florida A&M University,TRUE,6,"$17,725 (out-of-state), $5,785 (in-state)",hbcu
+180,218,hbcu,florida,tallahassee,,,,1,,,,,,219,tallahassee,fl,5,,"7,769",hbcu,15,"Tallahassee, FL",Florida A&M University,TRUE,6,"$17,725 (out-of-state), $5,785 (in-state)",hbcu
+185,220,hbcu,florida,tallahassee,,,,1,,,,,,221,tallahassee,fl,5,,"7,769",hbcu,15,"Tallahassee, FL",Florida A&M University,TRUE,6,"$17,725 (out-of-state), $5,785 (in-state)",hbcu
+32,159,hbcu,georgia,,,,,1,,,,,,160,,,,,,,,,,,,,
+42,163,hbcu,georgia,,,,,1,,,,,,164,,,,,,,,,,,,,
+44,164,hbcu,georgia,atlanta,,,,1,,,,,,165,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+52,167,hbcu,georgia,atlanta,,,,1,,,,,,168,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+74,179,hbcu,georgia,atlanta,,,,1,,,,,,180,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+81,181,hbcu,georgia,atlanta,,,,1,,,,,,182,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+92,184,hbcu,georgia,atlanta,,,,1,,,,,,185,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+101,187,hbcu,georgia,atlanta,,,,1,,,,,,188,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+152,209,hbcu,georgia,atlanta,,,,1,,,,,,210,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+160,212,hbcu,georgia,atlanta,,,,1,,,,,,213,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+167,214,hbcu,georgia,powder springs,,,,1,,,,,,215,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+172,215,hbcu,louisiana,,,,,1,,,,,,216,,,,,,,,,,,,,
+145,206,hbcu,louisiana,baton rouge,,,,1,,,,,,207,baton rouge,la,39,,"5,347",hbcu,117,"Baton Rouge, LA",Southern University and A&M College,TRUE,38,"$19,332 (out-of-state), $9,332 (in-state)",hbcu
+149,208,hbcu,maryland,baltimore,,,,1,,,,,,209,baltimore,md,16,,"6,362",hbcu,48,"Baltimore, MD",Morgan State University,TRUE,16,"$17,833 (out-of-state), $7,767 (in-state)",hbcu
+89,182,hbcu,mississippi,,,,,1,,,,,,183,,,,,,,,,,,,,
+22,157,hbcu,north carolina,,,,,1,,,,,,158,,,,,,,,,,,,,
+15,156,hbcu,north carolina,rural,,,,1,,,,,,157,elizabeth city,nc,30,,"1,310",hbcu,90,"Elizabeth City, NC",Elizabeth City State University,TRUE,31,"$18,610 (out-of-state), $5,466 (in-state)",hbcu
+183,219,hbcu,ohio,cincinnati,,,,1,,,,,,220,wilberforce,oh,43,,"1,729",hbcu,129,"Wilberforce, OH",Central State University,TRUE,44,"$8,096 (out-of-state), $6,246 (in-state)",hbcu
+114,191,hbcu,ohio,columbus,,,,1,,,,,,192,wilberforce,oh,43,,"1,729",hbcu,129,"Wilberforce, OH",Central State University,TRUE,44,"$8,096 (out-of-state), $6,246 (in-state)",hbcu
+148,207,hbcu,pennsylvania,dc,,,,1,,,,,,208,lincoln university,pa,23,,"1,824",hbcu,69,"Lincoln University, PA",Lincoln University,TRUE,23,"$16,389 (out-of-state), $11,379 (in-state)",hbcu
+33,160,hbcu,pennsylvania,philadelphia/urban,,,,1,,,,,,161,lincoln university,pa,23,,"1,824",hbcu,69,"Lincoln University, PA",Lincoln University,TRUE,23,"$16,389 (out-of-state), $11,379 (in-state)",hbcu
+177,216,hbcu,tennessee,memphis,,,,1,,,,,,217,nashville,tn,9,,723,hbcu,27,"Nashville, TN",Fisk University,FALSE,9,"$21,480 ",hbcu
+57,168,hbcu,tennessee,nashville,,,,1,,,,,,169,nashville,tn,9,,723,hbcu,27,"Nashville, TN",Fisk University,FALSE,9,"$21,480 ",hbcu
+7,155,hbcu,texas,,,,,1,,,,,,156,prairie view,tx,25,,"7,455",hbcu,75,"Prairie View, TX",Prairie View A&M University,TRUE,25,"$10,059 (out-of-state), $10,059 (in-state)",hbcu
+34,161,hbcu,texas,,,,,1,,,,,,162,prairie view,tx,25,,"7,455",hbcu,75,"Prairie View, TX",Prairie View A&M University,TRUE,25,"$10,059 (out-of-state), $10,059 (in-state)",hbcu
+61,171,hbcu,texas,,,,,1,,,,,,172,prairie view,tx,25,,"7,455",hbcu,75,"Prairie View, TX",Prairie View A&M University,TRUE,25,"$10,059 (out-of-state), $10,059 (in-state)",hbcu
+97,185,hbcu,texas,,,,,1,,,,,,186,prairie view,tx,25,,"7,455",hbcu,75,"Prairie View, TX",Prairie View A&M University,TRUE,25,"$10,059 (out-of-state), $10,059 (in-state)",hbcu
+131,200,hbcu,texas,,,,,1,,,,,,201,prairie view,tx,25,,"7,455",hbcu,75,"Prairie View, TX",Prairie View A&M University,TRUE,25,"$10,059 (out-of-state), $10,059 (in-state)",hbcu
+23,158,hbcu,virginia,,,,,1,,,,,,159,,,,,,,,,,,,,
+134,201,hbcu,virginia,chesapeake,,,,1,,,,,,202,norfolk,va,28,,"4,739",hbcu,84,"Norfolk, VA",Norfolk State University,TRUE,27,"$20,478 (out-of-state), $9,036 (in-state)",hbcu
+67,176,hbcu,virginia,hampton,,,,1,,,,,,177,hampton,va,2,,"3,836",hbcu,6,"Hampton, VA",Hampton University,FALSE,3,"$25,442 ",hbcu
+117,192,hbcu,virginia,urban,,,,1,,,,,,193,norfolk,va,28,,"4,739",hbcu,84,"Norfolk, VA",Norfolk State University,TRUE,27,"$20,478 (out-of-state), $9,036 (in-state)",hbcu
+272,548,hbcu - morehouse,georgia,atlanta,,,,1,,,,,,549,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+190,223,hbcu/private,georgia,atlanta,,,,1,,,,,,224,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+196,224,hbcu/private,georgia,atlanta,,,,1,,,,,,225,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+202,225,hbcu/private,georgia,atlanta,,,,1,,,,,,226,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+207,226,hbcu/private,virginia,hampton,,,,1,,,,,,227,hampton,va,2,,"3,836",hbcu,6,"Hampton, VA",Hampton University,FALSE,3,"$25,442 ",hbcu
+251,531,historically black college,georgia,atlanta,,,,1,,,,,,532,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+283,581,large hbcu,florida,,,,,1,,,,,,582,,,,,,,,,,,,,
+238,509,private (hbcu),georgia,atlanta,,,,1,,,,,,510,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+224,480,private hbcu,florida,miami,,,,1,,,,,,481,miami,fl,33,,"1,280",hbcu,99,"Miami, FL",Florida Memorial University,FALSE,34,"$15,536 ",hbcu
+226,481,private hbcu,georgia,atlanta,,,,1,,,,,,482,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+218,476,private hbcu,virginia,,,,,1,,,,,,477,,,,,,,,,,,,,
+2,23,"private, hbcu",georgia,atlanta,,,,1,,,,,,24,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+267,537,public (hbcu),tennessee,nashville,,,,1,,,,,,538,nashville,tn,36,,"7,007",hbcu,108,"Nashville, TN",Tennessee State University,TRUE,34,"$20,178 (out-of-state), $7,458 (in-state)",hbcu
+270,547,public - hbcu,texas,houston,,,,1,,,,,,548,houston,tx,48,,"6,562",hbcu,144,"Houston, TX",Texas Southern University,TRUE,47,"$21,240 (out-of-state), $9,000 (in-state)",hbcu
+256,533,public hbcu,florida,,,,,1,,,,,,534,,,,,,,,,,,,,
+259,534,public hbcu,north carolina,,,,,1,,,,,,535,,,,,,,,,,,,,
+279,571,"public, hbcu",maryland,,,,,1,,,,,,572,baltimore,md,16,,"6,362",hbcu,48,"Baltimore, MD",Morgan State University,TRUE,16,"$17,833 (out-of-state), $7,767 (in-state)",hbcu
+245,518,university (hbcu),georgia,atlanta,,,,1,,,,,,519,atlanta,ga,3,,"2,108",hbcu,9,"Atlanta, GA",Morehouse College,FALSE,4,"$27,278 ",hbcu
+4,535,"\""little ivy\""",new york,,,,,,,,1,,,536,poughkeepsie,ny,130,16,"2,424",lac,48,"Poughkeepsie, NY",Vassar College,FALSE,12,"$55,210 ",little_ivy
+60,584,pac -10,washington,seattle,,,1,,,,,,,585,seattle,wa,36,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",pac
+41,495,pac 10,arizona,,,,1,,,,,,,496,tempe,az,28,114,"42,477",national,342,"Tempe, AZ",Arizona State University Tempe,TRUE,115,"$27,372 (out-of-state), $10,792 (in-state)",pac
+43,496,pac 10,arizona,,,,1,,,,,,,497,tempe,az,28,114,"42,477",national,342,"Tempe, AZ",Arizona State University Tempe,TRUE,115,"$27,372 (out-of-state), $10,792 (in-state)",pac
+32,490,pac 10,arizona,tempe,,,1,,,,,,,491,tempe,az,28,114,"42,477",national,342,"Tempe, AZ",Arizona State University Tempe,TRUE,115,"$27,372 (out-of-state), $10,792 (in-state)",pac
+37,494,pac 10,california,san francisco,,,1,,,,,,,495,berkeley,ca,30,21,"29,311",national,63,"Berkeley, CA",University of California Berkeley,TRUE,21,"$42,112 (out-of-state), $14,098 (in-state)",pac
+27,486,pac 10,oregon,corvallis,,,1,,,,,,,487,corvallis,or,32,145,"25,327",national,435,"Corvallis, OR",Oregon State University,TRUE,145,"$29,457 (out-of-state), $10,797 (in-state)",pac
+30,489,pac 10,washington,seattle,,,1,,,,,,,490,seattle,wa,36,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",pac
+16,296,pac-10,arizona,mesa,,,1,,,,,,,297,tempe,az,28,114,"42,477",national,342,"Tempe, AZ",Arizona State University Tempe,TRUE,115,"$27,372 (out-of-state), $10,792 (in-state)",pac
+0,287,pac-10,arizona,phoenix,,,1,,,,,,,288,tempe,az,28,114,"42,477",national,342,"Tempe, AZ",Arizona State University Tempe,TRUE,115,"$27,372 (out-of-state), $10,792 (in-state)",pac
+3,289,pac-10,california,san francisco bay area,,,1,,,,,,,290,berkeley,ca,30,21,"29,311",national,63,"Berkeley, CA",University of California Berkeley,TRUE,21,"$42,112 (out-of-state), $14,098 (in-state)",pac
+22,298,pac-10,california,suburbanville,,,1,,,,,,,299,los angeles,ca,34,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",pac
+18,297,pac-10,oregon,,,,1,,,,,,,298,eugene,or,31,106,"20,049",national,318,"Eugene, OR",University of Oregon,TRUE,3,"$34,611 (out-of-state), $11,571 (in-state)",pac
+8,291,pac-10,washington,,,,1,,,,,,,292,seattle,wa,36,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",pac
+13,294,pac-10,washington,rural,,,1,,,,,,,295,pullman,wa,37,143,"24,904",national,429,"Pullman, WA",Washington State University,TRUE,1,"$25,817 (out-of-state), $11,391 (in-state)",pac
+14,295,pac-10,washington,seattle,,,1,,,,,,,296,seattle,wa,36,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",pac
+24,430,pac-10 school,washington,seattle,,,1,,,,,,,431,seattle,wa,36,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",pac
+51,562,pac-10 university,oregon,,,,1,,,,,,,563,eugene,or,31,106,"20,049",national,318,"Eugene, OR",University of Oregon,TRUE,3,"$34,611 (out-of-state), $11,571 (in-state)",pac
+57,566,pac-12,california,honolulu,,,1,,,,,,,567,los angeles,ca,34,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",pac
+53,565,pac-12,washington,,,,1,,,,,,,566,seattle,wa,36,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",pac
+45,521,pac10,arizona,,,,1,,,,,,,522,tempe,az,28,114,"42,477",national,342,"Tempe, AZ",Arizona State University Tempe,TRUE,115,"$27,372 (out-of-state), $10,792 (in-state)",pac
+50,524,"private, pac 10",california,los angeles,,,1,,,,,,,525,los angeles,ca,35,23,"18,794",national,69,"Los Angeles, CA",University of Southern California,FALSE,21,"$54,259 ",pac
+62,592,public pac-10!,washington,,,,1,,,,,,,593,seattle,wa,36,59,"30,933",national,177,"Seattle, WA",University of Washington,TRUE,56,"$35,538 (out-of-state), $10,974 (in-state)",pac
+68,542,considered a public ivy league,ohio,small,,,,,1,,,,,543,oxford,oh,39,77,"16,981",national,231,"Oxford, OH",Miami University Oxford,TRUE,78,"$32,768 (out-of-state), $14,578 (in-state)",public_ivy
+69,543,medium-sized public ivy,ohio,akron,,,,,1,,,,,544,oxford,oh,39,77,"16,981",national,231,"Oxford, OH",Miami University Oxford,TRUE,78,"$32,768 (out-of-state), $14,578 (in-state)",public_ivy
+30,252,public ivy,california,,,,,,1,,,,,253,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+33,255,public ivy,california,,,,,,1,,,,,256,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+34,256,public ivy,california,,,,,,1,,,,,257,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+39,261,public ivy,california,,,,,,1,,,,,262,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+45,266,public ivy,california,,,,,,1,,,,,267,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+53,274,public ivy,california,,,,,,1,,,,,275,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+62,283,public ivy,california,,,,,,1,,,,,284,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+47,268,public ivy,california,bay area,,,,,1,,,,,269,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+49,270,public ivy,california,los angeles,,,,,1,,,,,271,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+50,271,public ivy,california,urban,,,,,1,,,,,272,los angeles,ca,40,22,"30,873",national,66,"Los Angeles, CA",University of California Los Angeles,TRUE,21,"$41,270 (out-of-state), $13,256 (in-state)",public_ivy
+61,282,public ivy,michigan,,,,,,1,,,,,283,ann arbor,mi,41,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",public_ivy
+54,275,public ivy,michigan,grosse pointe,,,,,1,,,,,276,ann arbor,mi,41,27,"28,983",national,81,"Ann Arbor, MI",University of Michigan Ann Arbor,TRUE,28,"$47,476 (out-of-state), $14,826 (in-state)",public_ivy
+48,269,public ivy,ohio,,,,,,1,,,,,270,oxford,oh,39,77,"16,981",national,231,"Oxford, OH",Miami University Oxford,TRUE,78,"$32,768 (out-of-state), $14,578 (in-state)",public_ivy
+58,279,public ivy,texas,houston,,,,,1,,,,,280,austin,tx,43,58,"40,168",national,174,"Austin, TX",University of Texas Austin,TRUE,56,"$35,766 (out-of-state), $10,136 (in-state)",public_ivy
+1,228,public ivy,virginia,,,,,,1,,,,,229,williamsburg,va,38,32,"6,276",national,96,"Williamsburg, VA",College of William and Mary,TRUE,32,"$43,099 (out-of-state), $20,287 (in-state)",public_ivy
+6,232,public ivy,virginia,,,,,,1,,,,,233,williamsburg,va,38,32,"6,276",national,96,"Williamsburg, VA",College of William and Mary,TRUE,32,"$43,099 (out-of-state), $20,287 (in-state)",public_ivy
+16,240,public ivy,virginia,,,,,,1,,,,,241,williamsburg,va,38,32,"6,276",national,96,"Williamsburg, VA",College of William and Mary,TRUE,32,"$43,099 (out-of-state), $20,287 (in-state)",public_ivy
+23,246,public ivy,virginia,,,,,,1,,,,,247,williamsburg,va,38,32,"6,276",national,96,"Williamsburg, VA",College of William and Mary,TRUE,32,"$43,099 (out-of-state), $20,287 (in-state)",public_ivy
+43,265,public ivy,virginia,,,,,,1,,,,,266,williamsburg,va,38,32,"6,276",national,96,"Williamsburg, VA",College of William and Mary,TRUE,32,"$43,099 (out-of-state), $20,287 (in-state)",public_ivy
+9,234,public ivy,virginia,arlington,,,,,1,,,,,235,williamsburg,va,38,32,"6,276",national,96,"Williamsburg, VA",College of William and Mary,TRUE,32,"$43,099 (out-of-state), $20,287 (in-state)",public_ivy
+70,555,public ivy league,ohio,,,,,,1,,,,,556,oxford,oh,39,77,"16,981",national,231,"Oxford, OH",Miami University Oxford,TRUE,78,"$32,768 (out-of-state), $14,578 (in-state)",public_ivy
+72,600,public-ivy/ liberal arts,ohio,oxford,,,,,1,,,,,601,oxford,oh,39,77,"16,981",national,231,"Oxford, OH",Miami University Oxford,TRUE,78,"$32,768 (out-of-state), $14,578 (in-state)",public_ivy
+25,222,large public- sec,florida,,,,,,,,,1,,223,gainesville,fl,14,44,"34,554",national,132,"Gainesville, FL",University of Florida,TRUE,42,"$28,658 (out-of-state), $6,381 (in-state)",sec
+26,467,large sec,florida,college town,,,,,,,,1,,468,gainesville,fl,14,44,"34,554",national,132,"Gainesville, FL",University of Florida,TRUE,42,"$28,658 (out-of-state), $6,381 (in-state)",sec
+27,497,"public, sec",louisiana,baton rouge,,,,,,,,1,,498,baton rouge,la,24,132,"26,118",national,396,"Baton Rouge, LA",Louisiana State University Baton Rouge,TRUE,133,"$28,051 (out-of-state), $11,374 (in-state)",sec
+8,8,sec,alabama,,,,,,,,,1,,9,tuscaloosa,al,21,110,"32,563",national,330,"Tuscaloosa, AL",University of Alabama,TRUE,1,"$28,100 (out-of-state), $10,780 (in-state)",sec
+23,20,sec,alabama,auburn,,,,,,,,1,,21,auburn,al,23,102,"22,658",national,306,"Auburn, AL",Auburn University,TRUE,3,"$29,640 (out-of-state), $10,968 (in-state)",sec
+7,7,sec,florida,,,,,,,,,1,,8,gainesville,fl,14,44,"34,554",national,132,"Gainesville, FL",University of Florida,TRUE,42,"$28,658 (out-of-state), $6,381 (in-state)",sec
+5,5,sec,florida,parkland,,,,,,,,1,,6,gainesville,fl,14,44,"34,554",national,132,"Gainesville, FL",University of Florida,TRUE,42,"$28,658 (out-of-state), $6,381 (in-state)",sec
+2,2,sec,georgia,,,,,,,,,1,,3,athens,ga,15,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",sec
+3,3,sec,georgia,,,,,,,,,1,,4,athens,ga,15,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",sec
+11,10,sec,georgia,,,,,,,,,1,,11,athens,ga,15,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",sec
+19,17,sec,georgia,,,,,,,,,1,,18,athens,ga,15,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",sec
+6,6,sec,georgia,athens,,,,,,,,1,,7,athens,ga,15,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",sec
+24,21,sec,georgia,atlanta,,,,,,,,1,,22,athens,ga,15,54,"27,951",national,162,"Athens, GA",University of Georgia,TRUE,54,"$30,392 (out-of-state), $11,818 (in-state)",sec
+10,9,sec,kentucky,,,,,,,,,1,,10,lexington,ky,16,138,"22,621",national,414,"Lexington, KY",University of Kentucky,TRUE,133,"$28,046 (out-of-state), $11,922 (in-state)",sec
+13,12,sec,kentucky,,,,,,,,,1,,13,lexington,ky,16,138,"22,621",national,414,"Lexington, KY",University of Kentucky,TRUE,133,"$28,046 (out-of-state), $11,922 (in-state)",sec
+16,15,sec,mississippi,,,,,,,,,1,,16,university,ms,25,148,"19,213",national,444,"University, MS",University of Mississippi,TRUE,145,"$23,554 (out-of-state), $8,290 (in-state)",sec
+18,16,sec,south carolina,,,,,,,,,1,,17,columbia,sc,18,107,"25,556",national,321,"Columbia, SC",University of South Carolina,TRUE,3,"$32,362 (out-of-state), $12,262 (in-state)",sec
+28,519,sec public,florida,,,,,,,,,1,,520,gainesville,fl,14,44,"34,554",national,132,"Gainesville, FL",University of Florida,TRUE,42,"$28,658 (out-of-state), $6,381 (in-state)",sec
+29,520,sec public,tennessee,knoxville,,,,,,,,1,,521,knoxville,tn,19,108,"22,139",national,324,"Knoxville, TN",University of Tennessee,TRUE,3,"$31,160 (out-of-state), $12,970 (in-state)",sec
+35,585,sec state,alabama,,,,,,,,,1,,586,tuscaloosa,al,21,110,"32,563",national,330,"Tuscaloosa, AL",University of Alabama,TRUE,1,"$28,100 (out-of-state), $10,780 (in-state)",sec
+32,558,sec- guess!,florida,,,,,,,,,1,,559,gainesville,fl,14,44,"34,554",national,132,"Gainesville, FL",University of Florida,TRUE,42,"$28,658 (out-of-state), $6,381 (in-state)",sec
+31,552,state univ (uoffl) sec,florida,tampa,,,,,,,,1,,553,gainesville,fl,14,44,"34,554",national,132,"Gainesville, FL",University of Florida,TRUE,42,"$28,658 (out-of-state), $6,381 (in-state)",sec
+17,417,7 sisters,new york,ny,,1,,,,,,,,418,poughkeepsie,ny,99,16,"2,424",lac,48,"Poughkeepsie, NY",Vassar College,FALSE,12,"$55,210 ",sisters
+22,461,seven sister,massachusetts,,,1,,,,,,,,462,wellesley,ma,98,4,"2,347",lac,12,"Wellesley, MA",Wellesley College,FALSE,3,"$51,148 ",sisters
+23,462,seven sister,new york,nyc,,1,,,,,,,,463,new york,ny,94,25,"2,588",lac,75,"New York, NY",Barnard College,FALSE,26,"$52,662 ",sisters
+3,400,seven sisters,massachusetts,,,1,,,,,,,,401,wellesley,ma,98,4,"2,347",lac,12,"Wellesley, MA",Wellesley College,FALSE,3,"$51,148 ",sisters
+6,401,seven sisters,massachusetts,,,1,,,,,,,,402,wellesley,ma,98,4,"2,347",lac,12,"Wellesley, MA",Wellesley College,FALSE,3,"$51,148 ",sisters
+14,405,seven sisters,massachusetts,,,1,,,,,,,,406,wellesley,ma,98,4,"2,347",lac,12,"Wellesley, MA",Wellesley College,FALSE,3,"$51,148 ",sisters
+9,402,seven sisters,massachusetts,boston,,1,,,,,,,,403,wellesley,ma,98,4,"2,347",lac,12,"Wellesley, MA",Wellesley College,FALSE,3,"$51,148 ",sisters
+29,549,tier i lac/seven sisters schoo,massachusetts,,,1,,,,,,,,550,wellesley,ma,98,4,"2,347",lac,12,"Wellesley, MA",Wellesley College,FALSE,3,"$51,148 ",sisters
+8,536,wc ivy,california,,,,,,,1,,,,537,claremont,ca,114,8,"1,347",lac,24,"Claremont, CA",Claremont McKenna College,FALSE,8,"$52,825 ",west_ivy
+4,530,west coast ivy,california,san diego,,,,,,1,,,,531,claremont,ca,114,8,"1,347",lac,24,"Claremont, CA",Claremont McKenna College,FALSE,8,"$52,825 ",west_ivy
+30,586,7 sister,,,,1,,,,,,,,587,,,,,,,,,,,,,
+18,418,7 sisters,,texas,,1,,,,,,,,419,,,,,,,,,,,,,
+0,498,"\""little ivies\""",arizona,,,,,,,,1,,,499,,,,,,,,,,,,,
+368,473,b10,colorado,,1,,,,,,,,,474,,,,,,,,,,,,,
+181,303,big 10,,,1,,,,,,,,,304,,,,,,,,,,,,,
+184,305,big 10,,,1,,,,,,,,,306,,,,,,,,,,,,,
+185,306,big 10,,,1,,,,,,,,,307,,,,,,,,,,,,,
+200,317,big 10,,,1,,,,,,,,,318,,,,,,,,,,,,,
+203,319,big 10,,,1,,,,,,,,,320,,,,,,,,,,,,,
+204,320,big 10,,,1,,,,,,,,,321,,,,,,,,,,,,,
+207,322,big 10,,,1,,,,,,,,,323,,,,,,,,,,,,,
+227,337,big 10,,,1,,,,,,,,,338,,,,,,,,,,,,,
+230,339,big 10,,,1,,,,,,,,,340,,,,,,,,,,,,,
+232,341,big 10,,,1,,,,,,,,,342,,,,,,,,,,,,,
+241,347,big 10,,,1,,,,,,,,,348,,,,,,,,,,,,,
+253,357,big 10,,,1,,,,,,,,,358,,,,,,,,,,,,,
+270,369,big 10,,,1,,,,,,,,,370,,,,,,,,,,,,,
+281,377,big 10,,,1,,,,,,,,,378,,,,,,,,,,,,,
+282,378,big 10,,,1,,,,,,,,,379,,,,,,,,,,,,,
+286,381,big 10,,,1,,,,,,,,,382,,,,,,,,,,,,,
+287,382,big 10,,,1,,,,,,,,,383,,,,,,,,,,,,,
+288,383,big 10,,,1,,,,,,,,,384,,,,,,,,,,,,,
+293,387,big 10,,,1,,,,,,,,,388,,,,,,,,,,,,,
+294,388,big 10,,,1,,,,,,,,,389,,,,,,,,,,,,,
+296,390,big 10,,,1,,,,,,,,,391,,,,,,,,,,,,,
+303,395,big 10,,,1,,,,,,,,,396,,,,,,,,,,,,,
+289,384,big 10,,"champaign, il",1,,,,,,,,,385,,,,,,,,,,,,,
+299,392,big 10,,chicago,1,,,,,,,,,393,,,,,,,,,,,,,
+214,327,big 10,,iowa,1,,,,,,,,,328,,,,,,,,,,,,,
+243,349,big 10,,"madison, wi, usa",1,,,,,,,,,350,,,,,,,,,,,,,
+242,348,big 10,,nyc,1,,,,,,,,,349,,,,,,,,,,,,,
+223,334,big 10,,wisconsin,1,,,,,,,,,335,,,,,,,,,,,,,
+306,397,big 10,arizona,phoenix,1,,,,,,,,,398,,,,,,,,,,,,,
+283,379,big 10,california,,1,,,,,,,,,380,,,,,,,,,,,,,
+175,299,big 10,california,bay area,1,,,,,,,,,300,,,,,,,,,,,,,
+187,308,big 10,california,long beach,1,,,,,,,,,309,,,,,,,,,,,,,
+269,368,big 10,california,los angeles,1,,,,,,,,,369,,,,,,,,,,,,,
+266,366,big 10,massachusetts,,1,,,,,,,,,367,,,,,,,,,,,,,
+295,389,big 10,massachusetts,town,1,,,,,,,,,390,,,,,,,,,,,,,
+249,354,big 10,north carolina,,1,,,,,,,,,355,,,,,,,,,,,,,
+208,323,big 10,other,,1,,,,,,,,,324,,,,,,,,,,,,,
+194,312,big 10,south carolina,,1,,,,,,,,,313,,,,,,,,,,,,,
+244,350,big 10,south carolina,,1,,,,,,,,,351,,,,,,,,,,,,,
+302,394,big 10,washington - d.c.,,1,,,,,,,,,395,,,,,,,,,,,,,
+420,590,big 10 or is it 11 or 12 now?,new york,,1,,,,,,,,,591,,,,,,,,,,,,,
+394,540,big 10 public,,,1,,,,,,,,,541,,,,,,,,,,,,,
+416,576,big 10 school,,,1,,,,,,,,,577,,,,,,,,,,,,,
+362,468,big 10 university,,,1,,,,,,,,,469,,,,,,,,,,,,,
+363,469,big 10 university,,"west lafayette, indi",1,,,,,,,,,470,,,,,,,,,,,,,
+323,437,big 12,,,1,,,,,,,,,438,,,,,,,,,,,,,
+330,442,big 12,,,1,,,,,,,,,443,,,,,,,,,,,,,
+334,445,big 12,,,1,,,,,,,,,446,,,,,,,,,,,,,
+339,447,big 12,,,1,,,,,,,,,448,,,,,,,,,,,,,
+342,449,big 12,,,1,,,,,,,,,450,,,,,,,,,,,,,
+348,452,big 12,,,1,,,,,,,,,453,,,,,,,,,,,,,
+355,456,big 12,,,1,,,,,,,,,457,,,,,,,,,,,,,
+322,436,big 12,,"200,000 people",1,,,,,,,,,437,,,,,,,,,,,,,
+343,450,big 12,california,small suburban,1,,,,,,,,,451,,,,,,,,,,,,,
+331,443,big 12,colorado,,1,,,,,,,,,444,,,,,,,,,,,,,
+349,453,big 12,connecticut,,1,,,,,,,,,454,,,,,,,,,,,,,
+350,454,big 12,missouri,st. louis,1,,,,,,,,,455,,,,,,,,,,,,,
+321,435,big 12,new york,,1,,,,,,,,,436,,,,,,,,,,,,,
+324,438,big 12,new york,,1,,,,,,,,,439,,,,,,,,,,,,,
+325,439,big 12,washington - d.c.,,1,,,,,,,,,440,,,,,,,,,,,,,
+419,587,big 12 public,,,1,,,,,,,,,588,,,,,,,,,,,,,
+429,604,big 12 university,,,1,,,,,,,,,605,,,,,,,,,,,,,
+366,471,big eight,,,1,,,,,,,,,472,,,,,,,,,,,,,
+26,40,big ten,,,1,,,,,,,,,41,,,,,,,,,,,,,
+27,41,big ten,,,1,,,,,,,,,42,,,,,,,,,,,,,
+30,43,big ten,,,1,,,,,,,,,44,,,,,,,,,,,,,
+31,44,big ten,,,1,,,,,,,,,45,,,,,,,,,,,,,
+39,51,big ten,,,1,,,,,,,,,52,,,,,,,,,,,,,
+44,56,big ten,,,1,,,,,,,,,57,,,,,,,,,,,,,
+46,58,big ten,,,1,,,,,,,,,59,,,,,,,,,,,,,
+51,63,big ten,,,1,,,,,,,,,64,,,,,,,,,,,,,
+59,69,big ten,,,1,,,,,,,,,70,,,,,,,,,,,,,
+60,70,big ten,,,1,,,,,,,,,71,,,,,,,,,,,,,
+70,77,big ten,,,1,,,,,,,,,78,,,,,,,,,,,,,
+72,79,big ten,,,1,,,,,,,,,80,,,,,,,,,,,,,
+83,88,big ten,,,1,,,,,,,,,89,,,,,,,,,,,,,
+89,92,big ten,,,1,,,,,,,,,93,,,,,,,,,,,,,
+107,102,big ten,,,1,,,,,,,,,103,,,,,,,,,,,,,
+110,104,big ten,,,1,,,,,,,,,105,,,,,,,,,,,,,
+112,106,big ten,,,1,,,,,,,,,107,,,,,,,,,,,,,
+123,113,big ten,,,1,,,,,,,,,114,,,,,,,,,,,,,
+141,127,big ten,,,1,,,,,,,,,128,,,,,,,,,,,,,
+148,134,big ten,,,1,,,,,,,,,135,,,,,,,,,,,,,
+156,140,big ten,,,1,,,,,,,,,141,,,,,,,,,,,,,
+160,143,big ten,,,1,,,,,,,,,144,,,,,,,,,,,,,
+169,150,big ten,,,1,,,,,,,,,151,,,,,,,,,,,,,
+61,71,big ten,,boston,1,,,,,,,,,72,,,,,,,,,,,,,
+168,149,big ten,,dc,1,,,,,,,,,150,,,,,,,,,,,,,
+47,59,big ten,,midwest,1,,,,,,,,,60,,,,,,,,,,,,,
+100,98,big ten,,midwest,1,,,,,,,,,99,,,,,,,,,,,,,
+143,129,big ten,,midwest,1,,,,,,,,,130,,,,,,,,,,,,,
+49,61,big ten,,"minneapolis, mn",1,,,,,,,,,62,,,,,,,,,,,,,
+2,25,big ten,,"nashville, tn",1,,,,,,,,,26,,,,,,,,,,,,,
+74,81,big ten,alabama,,1,,,,,,,,,82,,,,,,,,,,,,,
+174,154,big ten,alabama,,1,,,,,,,,,155,,,,,,,,,,,,,
+45,57,big ten,california,,1,,,,,,,,,58,,,,,,,,,,,,,
+21,36,big ten,california,oakland,1,,,,,,,,,37,,,,,,,,,,,,,
+69,76,big ten,colorado,,1,,,,,,,,,77,,,,,,,,,,,,,
+125,115,big ten,connecticut,chicago,1,,,,,,,,,116,,,,,,,,,,,,,
+55,66,big ten,florida,,1,,,,,,,,,67,,,,,,,,,,,,,
+82,87,big ten,massachusetts,,1,,,,,,,,,88,,,,,,,,,,,,,
+138,124,big ten,massachusetts,boston,1,,,,,,,,,125,,,,,,,,,,,,,
+139,125,big ten,missouri,,1,,,,,,,,,126,,,,,,,,,,,,,
+12,31,big ten,new york,,1,,,,,,,,,32,,,,,,,,,,,,,
+58,68,big ten,new york,,1,,,,,,,,,69,,,,,,,,,,,,,
+157,141,big ten,new york,,1,,,,,,,,,142,,,,,,,,,,,,,
+48,60,big ten,new york,brooklyn,1,,,,,,,,,61,,,,,,,,,,,,,
+32,45,big ten,new york,buffalo,1,,,,,,,,,46,,,,,,,,,,,,,
+52,64,big ten,new york,new york,1,,,,,,,,,65,,,,,,,,,,,,,
+137,123,big ten,new york,rochester,1,,,,,,,,,124,,,,,,,,,,,,,
+25,39,big ten,other,,1,,,,,,,,,40,,,,,,,,,,,,,
+50,62,big ten,other,,1,,,,,,,,,63,,,,,,,,,,,,,
+166,147,big ten,other,urban,1,,,,,,,,,148,,,,,,,,,,,,,
+149,135,big ten,virginia,northern,1,,,,,,,,,136,,,,,,,,,,,,,
+24,38,big ten,washington - d.c.,,1,,,,,,,,,39,,,,,,,,,,,,,
+35,48,big ten,washington - d.c.,urban,1,,,,,,,,,49,,,,,,,,,,,,,
+361,466,big ten burrito,,,1,,,,,,,,,467,,,,,,,,,,,,,
+412,570,big ten school,new york,new york,1,,,,,,,,,571,,,,,,,,,,,,,
+410,564,big ten state school,,"tallahassee, florida",1,,,,,,,,,565,,,,,,,,,,,,,
+399,545,big xii,,,1,,,,,,,,,546,,,,,,,,,,,,,
+400,546,big xii,,,1,,,,,,,,,547,,,,,,,,,,,,,
+307,407,big-10,arizona,phoenix,1,,,,,,,,,408,,,,,,,,,,,,,
+374,502,big10,new york,zurich,1,,,,,,,,,503,,,,,,,,,,,,,
+316,433,big10student,alabama,,1,,,,,,,,,434,,,,,,,,,,,,,
+59,577,"ca, pac 10 school",indiana,,,,1,,,,,,,578,,,,,,,,,,,,,
+424,595,elite big ten,,washington,1,,,,,,,,,596,,,,,,,,,,,,,
+282,578,elite hbcu,connecticut,wethersfield,,,,1,,,,,,579,,,,,,,,,,,,,
+24,517,flagship public,,,,,,,,,,,1,518,,,,,,,,,,,,,
+23,516,flagship public,,upper midwest,,,,,,,,,1,517,,,,,,,,,,,,,
+21,514,flagship state u.,,,,,,,,,,,1,515,,,,,,,,,,,,,
+26,580,flagship state unive,other,small city,,,,,,,,,1,581,,,,,,,,,,,,,
+50,166,hbcu,,,,,,1,,,,,,167,,,,,,,,,,,,,
+63,172,hbcu,,,,,,1,,,,,,173,,,,,,,,,,,,,
+64,173,hbcu,,,,,,1,,,,,,174,,,,,,,,,,,,,
+72,178,hbcu,,,,,,1,,,,,,179,,,,,,,,,,,,,
+79,180,hbcu,,,,,,1,,,,,,181,,,,,,,,,,,,,
+99,186,hbcu,,,,,,1,,,,,,187,,,,,,,,,,,,,
+123,194,hbcu,,,,,,1,,,,,,195,,,,,,,,,,,,,
+124,195,hbcu,,,,,,1,,,,,,196,,,,,,,,,,,,,
+138,203,hbcu,,,,,,1,,,,,,204,,,,,,,,,,,,,
+139,204,hbcu,,,,,,1,,,,,,205,,,,,,,,,,,,,
+179,217,hbcu,,,,,,1,,,,,,218,,,,,,,,,,,,,
+188,221,hbcu,,,,,,1,,,,,,222,,,,,,,,,,,,,
+59,169,hbcu,,atlanta,,,,1,,,,,,170,,,,,,,,,,,,,
+157,210,hbcu,,"atlanta, ga",,,,1,,,,,,211,,,,,,,,,,,,,
+36,162,hbcu,,"hampton, va",,,,1,,,,,,163,,,,,,,,,,,,,
+49,165,hbcu,,"marietta, ga, usa",,,,1,,,,,,166,,,,,,,,,,,,,
+90,183,hbcu,,new york,,,,1,,,,,,184,,,,,,,,,,,,,
+130,199,hbcu,,texas,,,,1,,,,,,200,,,,,,,,,,,,,
+65,174,hbcu,minnesota,minneapolis,,,,1,,,,,,175,,,,,,,,,,,,,
+125,196,hbcu,new york,,,,,1,,,,,,197,,,,,,,,,,,,,
+110,189,hbcu,other,,,,,1,,,,,,190,,,,,,,,,,,,,
+71,177,hbcu,other,nunya&#39; business,,,,1,,,,,,178,,,,,,,,,,,,,
+60,170,hbcu,washington - d.c.,,,,,1,,,,,,171,,,,,,,,,,,,,
+165,213,hbcu,washington - d.c.,,,,,1,,,,,,214,,,,,,,,,,,,,
+66,175,hbcu,washington - d.c.,dc,,,,1,,,,,,176,,,,,,,,,,,,,
+126,197,hbcu,washington - d.c.,washington,,,,1,,,,,,198,,,,,,,,,,,,,
+137,202,hbcu,washington - d.c.,washington,,,,1,,,,,,203,,,,,,,,,,,,,
+278,561,hbcu (private),california,los angeles,,,,1,,,,,,562,,,,,,,,,,,,,
+286,596,hbcu (public),,,,,,1,,,,,,597,,,,,,,,,,,,,
+281,573,hbcu (undergrad) ivy (grad),,,,,,1,,,,,,574,,,,,,,,,,,,,
+235,501,hbcu/ state univ,,,,,,1,,,,,,502,,,,,,,,,,,,,
+405,557,large public (big ten),,,1,,,,,,,,,558,,,,,,,,,,,,,
+404,556,large public(bigten),,,1,,,,,,,,,557,,,,,,,,,,,,,
+414,574,look at my username,massachusetts,boston,1,,,,,,,,,575,,,,,,,,,,,,,
+66,410,major / public ivy,new york,,,,,,1,,,,,411,,,,,,,,,,,,,
+310,409,major big 10 university,,,1,,,,,,,,,410,,,,,,,,,,,,,
+28,487,pac 10,,,,,1,,,,,,,488,,,,,,,,,,,,,
+35,492,pac 10,,,,,1,,,,,,,493,,,,,,,,,,,,,
+29,488,pac 10,,"tucson, az",,,1,,,,,,,489,,,,,,,,,,,,,
+34,491,pac 10,,urban,,,1,,,,,,,492,,,,,,,,,,,,,
+36,493,pac 10,washington - d.c.,,,,1,,,,,,,494,,,,,,,,,,,,,
+64,598,pac ten state school,oklahoma,,,,1,,,,,,,599,,,,,,,,,,,,,
+7,290,pac-10,,,,,1,,,,,,,291,,,,,,,,,,,,,
+10,292,pac-10,,,,,1,,,,,,,293,,,,,,,,,,,,,
+11,293,pac-10,,,,,1,,,,,,,294,,,,,,,,,,,,,
+2,288,pac-10,,"los angeles, ca",,,1,,,,,,,289,,,,,,,,,,,,,
+243,510,private (hbcu),california,los angeles,,,,1,,,,,,511,,,,,,,,,,,,,
+409,563,private big 12,,texas,1,,,,,,,,,564,,,,,,,,,,,,,
+214,475,private hbcu,,,,,,1,,,,,,476,,,,,,,,,,,,,
+219,477,private hbcu,,,,,,1,,,,,,478,,,,,,,,,,,,,
+220,478,private hbcu,,urban,,,,1,,,,,,479,,,,,,,,,,,,,
+221,479,private hbcu,new jersey,,,,,1,,,,,,480,,,,,,,,,,,,,
+232,483,private hbcu,new york,new york,,,,1,,,,,,484,,,,,,,,,,,,,
+231,482,private hbcu,washington - d.c.,washington,,,,1,,,,,,483,,,,,,,,,,,,,
+0,22,"private, hbcu",iowa,des moines,,,,1,,,,,,23,,,,,,,,,,,,,
+402,551,public (big ten),florida,,1,,,,,,,,,552,,,,,,,,,,,,,
+268,538,public (hbcu),illinois,,,,,1,,,,,,539,,,,,,,,,,,,,
+417,582,public - big 12,,,1,,,,,,,,,583,,,,,,,,,,,,,
+19,512,public flagship,,,,,,,,,,,1,513,,,,,,,,,,,,,
+0,227,public ivy,,,,,,,1,,,,,228,,,,,,,,,,,,,
+4,230,public ivy,,,,,,,1,,,,,231,,,,,,,,,,,,,
+5,231,public ivy,,,,,,,1,,,,,232,,,,,,,,,,,,,
+8,233,public ivy,,,,,,,1,,,,,234,,,,,,,,,,,,,
+11,235,public ivy,,,,,,,1,,,,,236,,,,,,,,,,,,,
+13,237,public ivy,,,,,,,1,,,,,238,,,,,,,,,,,,,
+19,242,public ivy,,,,,,,1,,,,,243,,,,,,,,,,,,,
+22,245,public ivy,,,,,,,1,,,,,246,,,,,,,,,,,,,
+26,248,public ivy,,,,,,,1,,,,,249,,,,,,,,,,,,,
+27,249,public ivy,,,,,,,1,,,,,250,,,,,,,,,,,,,
+29,251,public ivy,,,,,,,1,,,,,252,,,,,,,,,,,,,
+36,258,public ivy,,,,,,,1,,,,,259,,,,,,,,,,,,,
+38,260,public ivy,,,,,,,1,,,,,261,,,,,,,,,,,,,
+40,262,public ivy,,,,,,,1,,,,,263,,,,,,,,,,,,,
+42,264,public ivy,,,,,,,1,,,,,265,,,,,,,,,,,,,
+51,272,public ivy,,,,,,,1,,,,,273,,,,,,,,,,,,,
+55,276,public ivy,,,,,,,1,,,,,277,,,,,,,,,,,,,
+60,281,public ivy,,,,,,,1,,,,,282,,,,,,,,,,,,,
+63,284,public ivy,,,,,,,1,,,,,285,,,,,,,,,,,,,
+65,286,public ivy,,,,,,,1,,,,,287,,,,,,,,,,,,,
+56,277,public ivy,,major city,,,,,1,,,,,278,,,,,,,,,,,,,
+21,244,public ivy,alabama,,,,,,1,,,,,245,,,,,,,,,,,,,
+57,278,public ivy,florida,,,,,,1,,,,,279,,,,,,,,,,,,,
+35,257,public ivy,florida,gainesville,,,,,1,,,,,258,,,,,,,,,,,,,
+3,229,public ivy,florida,tampa,,,,,1,,,,,230,,,,,,,,,,,,,
+59,280,public ivy,georgia,,,,,,1,,,,,281,,,,,,,,,,,,,
+12,236,public ivy,indiana,,,,,,1,,,,,237,,,,,,,,,,,,,
+18,241,public ivy,indiana,,,,,,1,,,,,242,,,,,,,,,,,,,
+14,238,public ivy,kentucky,,,,,,1,,,,,239,,,,,,,,,,,,,
+20,243,public ivy,new jersey,,,,,,1,,,,,244,,,,,,,,,,,,,
+15,239,public ivy,new york,,,,,,1,,,,,240,,,,,,,,,,,,,
+37,259,public ivy,new york,,,,,,1,,,,,260,,,,,,,,,,,,,
+41,263,public ivy,new york,,,,,,1,,,,,264,,,,,,,,,,,,,
+31,253,public ivy,north carolina,,,,,,1,,,,,254,,,,,,,,,,,,,
+46,267,public ivy,north carolina,,,,,,1,,,,,268,,,,,,,,,,,,,
+64,285,public ivy,north carolina,clemmons,,,,,1,,,,,286,,,,,,,,,,,,,
+28,250,public ivy,north carolina,raleigh,,,,,1,,,,,251,,,,,,,,,,,,,
+25,247,public ivy,pennsylvania,pittsburgh,,,,,1,,,,,248,,,,,,,,,,,,,
+32,254,public ivy,washington - d.c.,washington,,,,,1,,,,,255,,,,,,,,,,,,,
+52,273,public ivy,washington - d.c.,washington,,,,,1,,,,,274,,,,,,,,,,,,,
+67,499,public ivy (?),,,,,,,1,,,,,500,,,,,,,,,,,,,
+73,605,public ivy baby,,,,,,,1,,,,,606,,,,,,,,,,,,,
+367,472,"public, big 12",,,1,,,,,,,,,473,,,,,,,,,,,,,
+71,597,publicivy,,,,,,,1,,,,,598,,,,,,,,,,,,,
+25,567,se state flagship,,,,,,,,,,,1,568,,,,,,,,,,,,,
+4,4,sec,,,,,,,,,,1,,5,,,,,,,,,,,,,
+12,11,sec,,,,,,,,,,1,,12,,,,,,,,,,,,,
+14,13,sec,,,,,,,,,,1,,14,,,,,,,,,,,,,
+21,19,sec,,,,,,,,,,1,,20,,,,,,,,,,,,,
+1,1,sec,,al,,,,,,,,1,,2,,,,,,,,,,,,,
+0,0,sec,,atl,,,,,,,,1,,1,,,,,,,,,,,,,
+15,14,sec,,georgia,,,,,,,,1,,15,,,,,,,,,,,,,
+20,18,sec,alaska,,,,,,,,,1,,19,,,,,,,,,,,,,
+34,579,sec school,,,,,,,,,,1,,580,,,,,,,,,,,,,
+33,568,sec! sec!,washington,portland,,,,,,,,1,,569,,,,,,,,,,,,,
+31,588,seven sistahz,vermont,,,1,,,,,,,,589,,,,,,,,,,,,,
+26,464,seven sister,,,,1,,,,,,,,465,,,,,,,,,,,,,
+19,460,seven sister,ohio,,,1,,,,,,,,461,,,,,,,,,,,,,
+25,463,seven sister,washington - d.c.,washington,,1,,,,,,,,464,,,,,,,,,,,,,
+0,399,seven sisters,,,,1,,,,,,,,400,,,,,,,,,,,,,
+15,406,seven sisters,,ma,,1,,,,,,,,407,,,,,,,,,,,,,
+10,403,seven sisters,,"new york, ny",,1,,,,,,,,404,,,,,,,,,,,,,
+11,404,seven sisters,texas,,,1,,,,,,,,405,,,,,,,,,,,,,
+213,416,small hbcu,,"fayetteville, nc",,,,1,,,,,,417,,,,,,,,,,,,,
+373,500,state - big ten,colorado,denver,1,,,,,,,,,501,,,,,,,,,,,,,
+2,420,state flagship,,,,,,,,,,,1,421,,,,,,,,,,,,,
+6,424,state flagship,,,,,,,,,,,1,425,,,,,,,,,,,,,
+7,425,state flagship,,,,,,,,,,,1,426,,,,,,,,,,,,,
+8,426,state flagship,,,,,,,,,,,1,427,,,,,,,,,,,,,
+9,427,state flagship,,,,,,,,,,,1,428,,,,,,,,,,,,,
+10,428,state flagship,,,,,,,,,,,1,429,,,,,,,,,,,,,
+5,423,state flagship,colorado,,,,,,,,,,1,424,,,,,,,,,,,,,
+14,432,state flagship public,,some big city,,,,,,,,,1,433,,,,,,,,,,,,,
+28,593,state flagship university,north carolina,,,,,,,,,,1,594,,,,,,,,,,,,,
+277,553,top 3 hbcu,,,,,,1,,,,,,554,,,,,,,,,,,,,
+313,414,top big ten school,other,,1,,,,,,,,,415,,,,,,,,,,,,,
+211,411,top hbcu,,,,,,1,,,,,,412,,,,,,,,,,,,,
+212,412,top hbcu,,,,,,1,,,,,,413,,,,,,,,,,,,,
+408,560,top public big 10,arkansas,,1,,,,,,,,,561,,,,,,,,,,,,,
+236,508,well regarded large hbcu,,large florida city,,,,1,,,,,,509,,,,,,,,,,,,,
+0,529,west coast ivy,,,,,,,,1,,,,530,,,,,,,,,,,,,

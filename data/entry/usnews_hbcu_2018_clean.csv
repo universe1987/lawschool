@@ -1,0 +1,81 @@
+,index,name,tuition,enrollment,group,location,rank,public,City,State_acronym,State
+0,0,Spelman College,"$28,181 ","2,125",hbcu,"Atlanta, GA",1,FALSE,atlanta,ga,georgia
+1,3,Howard University,"$25,697 ","5,899",hbcu,"Washington, DC",2,FALSE,washington,dc,
+2,6,Hampton University,"$25,442 ","3,836",hbcu,"Hampton, VA",3,FALSE,hampton,va,virginia
+3,9,Morehouse College,"$27,278 ","2,108",hbcu,"Atlanta, GA",4,FALSE,atlanta,ga,georgia
+4,12,Xavier University of Louisiana,"$23,606 ","2,327",hbcu,"New Orleans, LA",5,FALSE,new orleans,la,louisiana
+5,15,Florida A&M University,"$17,725 (out-of-state), $5,785 (in-state)","7,769",hbcu,"Tallahassee, FL",6,TRUE,tallahassee,fl,florida
+6,18,Tuskegee University,"$22,235 ",,hbcu,"Tuskegee, AL",6,FALSE,tuskegee,al,alabama
+7,21,North Carolina A&T State University,"$19,416 (out-of-state), $6,526 (in-state)","9,668",hbcu,"Greensboro, NC",8,TRUE,greensboro,nc,north carolina
+8,24,Claflin University,"$16,098 ","1,905",hbcu,"Orangeburg, SC",9,FALSE,orangeburg,sc,south carolina
+9,27,Fisk University,"$21,480 ",723,hbcu,"Nashville, TN",9,FALSE,nashville,tn,tennessee
+10,30,Dillard University,"$18,711 ","1,261",hbcu,"New Orleans, LA",11,FALSE,new orleans,la,louisiana
+11,33,Tougaloo College,"$10,600 ",843,hbcu,"Tougaloo, MS",12,FALSE,tougaloo,ms,mississippi
+12,36,Delaware State University,"$16,904 (out-of-state), $7,868 (in-state)","3,993",hbcu,"Dover, DE",13,TRUE,dover,de,delaware
+13,39,North Carolina Central University,"$18,340 (out-of-state), $5,882 (in-state)","6,285",hbcu,"Durham, NC",13,TRUE,durham,nc,north carolina
+14,42,Jackson State University,"$17,614 (out-of-state), $7,261 (in-state)","7,492",hbcu,"Jackson, MS",15,TRUE,jackson,ms,mississippi
+15,45,Clark Atlanta University,"$23,082 ","3,093",hbcu,"Atlanta, GA",16,FALSE,atlanta,ga,georgia
+16,48,Morgan State University,"$17,833 (out-of-state), $7,767 (in-state)","6,362",hbcu,"Baltimore, MD",16,TRUE,baltimore,md,maryland
+17,51,Johnson C. Smith University,"$18,236 ","1,326",hbcu,"Charlotte, NC",18,FALSE,charlotte,nc,north carolina
+18,54,Alcorn State University,"$6,888 (out-of-state), $6,888 (in-state)","2,825",hbcu,"Lorman, MS",19,TRUE,lorman,ms,mississippi
+19,57,University of Maryland Eastern Shore,"$18,048 (out-of-state), $8,042 (in-state)","3,278",hbcu,"Princess Anne, MD",20,TRUE,princess anne,md,maryland
+20,60,Alabama Agricultural and Mechanical University,"$17,496 (out-of-state), $9,366 (in-state)","4,851",hbcu,"Normal, AL",21,TRUE,normal,al,alabama
+21,63,Bowie State University,"$18,653 (out-of-state), $8,064 (in-state)","4,711",hbcu,"Bowie, MD",22,TRUE,bowie,md,maryland
+22,66,Fayetteville State University,"$17,192 (out-of-state), $5,584 (in-state)","5,540",hbcu,"Fayetteville, NC",23,TRUE,fayetteville,nc,north carolina
+23,69,Lincoln University,"$16,389 (out-of-state), $11,379 (in-state)","1,824",hbcu,"Lincoln University, PA",23,TRUE,lincoln university,pa,pennsylvania
+24,72,Bethune Cookman University,"$14,410 ","3,796",hbcu,"Daytona Beach, FL",25,FALSE,daytona beach,fl,florida
+25,75,Prairie View A&M University,"$10,059 (out-of-state), $10,059 (in-state)","7,455",hbcu,"Prairie View, TX",25,TRUE,prairie view,tx,texas
+26,78,Albany State University,"$19,802 (out-of-state), $6,726 (in-state)","2,594",hbcu,"Albany, GA",27,TRUE,albany,ga,georgia
+27,81,Bennett College,"$18,513 ",474,hbcu,"Greensboro, NC",27,FALSE,greensboro,nc,north carolina
+28,84,Norfolk State University,"$20,478 (out-of-state), $9,036 (in-state)","4,739",hbcu,"Norfolk, VA",27,TRUE,norfolk,va,virginia
+29,87,Winston Salem State University,"$15,915 (out-of-state), $5,804 (in-state)",,hbcu,"Winston-Salem, NC",27,TRUE,winston-salem,nc,north carolina
+30,90,Elizabeth City State University,"$18,610 (out-of-state), $5,466 (in-state)","1,310",hbcu,"Elizabeth City, NC",31,TRUE,elizabeth city,nc,north carolina
+31,93,Philander Smith College,"$12,414 ",765,hbcu,"Little Rock, AR",31,FALSE,little rock,ar,arkansas
+32,96,Virginia State University,"$18,841 (out-of-state), $8,726 (in-state)","4,165",hbcu,"Petersburg, VA",31,TRUE,petersburg,va,virginia
+33,99,Florida Memorial University,"$15,536 ","1,280",hbcu,"Miami, FL",34,FALSE,miami,fl,florida
+34,102,Fort Valley State University,"$19,740 (out-of-state), $6,664 (in-state)","2,252",hbcu,"Fort Valley, GA",34,TRUE,fort valley,ga,georgia
+35,105,Oakwood University,"$16,750 ",,hbcu,"Huntsville, AL",34,FALSE,huntsville,al,alabama
+36,108,Tennessee State University,"$20,178 (out-of-state), $7,458 (in-state)","7,007",hbcu,"Nashville, TN",34,TRUE,nashville,tn,tennessee
+37,111,Alabama State University,"$16,156 (out-of-state), $9,220 (in-state)","4,727",hbcu,"Montgomery, AL",38,TRUE,montgomery,al,alabama
+38,114,Kentucky State University,"$19,638 (out-of-state), $8,184 (in-state)","1,568",hbcu,"Frankfort, KY",38,TRUE,frankfort,ky,kentucky
+39,117,Southern University and A&M College,"$19,332 (out-of-state), $9,332 (in-state)","5,347",hbcu,"Baton Rouge, LA",38,TRUE,baton rouge,la,louisiana
+40,120,University of Arkansas Pine Bluff,"$13,666 (out-of-state), $7,336 (in-state)","2,721",hbcu,"Pine Bluff, AR",38,TRUE,pine bluff,ar,arkansas
+41,123,South Carolina State University,"$20,500 (out-of-state), $10,420 (in-state)","2,529",hbcu,"Orangeburg, SC",42,TRUE,orangeburg,sc,south carolina
+42,126,West Virginia State University,"$16,550 (out-of-state), $7,546 (in-state)","3,433",hbcu,"Institute, WV",42,TRUE,institute,wv,west virginia
+43,129,Central State University,"$8,096 (out-of-state), $6,246 (in-state)","1,729",hbcu,"Wilberforce, OH",44,TRUE,wilberforce,oh,ohio
+44,132,Grambling State University,"$16,466 (out-of-state), $7,443 (in-state)","3,883",hbcu,"Grambling, LA",44,TRUE,grambling,la,louisiana
+45,135,Bluefield State College,"$13,032 (out-of-state), $9,560 (in-state)","1,362",hbcu,"Bluefield, WV",46,TRUE,bluefield,wv,west virginia
+46,138,Lincoln University,"$14,172 (out-of-state), $7,632 (in-state)","2,618",hbcu,"Jefferson City, MO",47,TRUE,jefferson city,mo,missouri
+47,141,Mississippi Valley State University,"$6,116 (out-of-state), $6,116 (in-state)","2,011",hbcu,"Itta Bena, MS",47,TRUE,itta bena,ms,mississippi
+48,144,Texas Southern University,"$21,240 (out-of-state), $9,000 (in-state)","6,562",hbcu,"Houston, TX",47,TRUE,houston,tx,texas
+49,147,Coppin State University,"$13,168 (out-of-state), $7,438 (in-state)",,hbcu,"Baltimore, MD",50,TRUE,baltimore,md,maryland
+50,150,St. Augustine's University,"$17,890 ",944,hbcu,"Raleigh, NC",50,FALSE,raleigh,nc,north carolina
+51,153,Savannah State University,"$9,905 (out-of-state), $3,367 (in-state)","4,772",hbcu,"Savannah, GA",52,TRUE,savannah,ga,georgia
+52,156,University of the District of Columbia,"$12,952 (out-of-state), $6,616 (in-state)","3,950",hbcu,"Washington, DC",53,TRUE,washington,dc,
+53,159,Virginia Union University,"$16,534 ","1,388",hbcu,"Richmond, VA",53,FALSE,richmond,va,virginia
+54,162,Southern University New Orleans,"$15,322 (out-of-state), $6,421 (in-state)","1,981",hbcu,"New Orleans, LA",55,TRUE,new orleans,la,louisiana
+55,165,Wilberforce University,"$13,250 ",,hbcu,"Wilberforce, OH",55,FALSE,wilberforce,oh,ohio
+56,168,Allen University,"$13,140 ",,hbcu,"Columbia, SC",57-74,FALSE,columbia,sc,south carolina
+57,171,Arkansas Baptist College,"$8,760 ",878,hbcu,"Little Rock, AR",57-74,FALSE,little rock,ar,arkansas
+58,174,Benedict College,"$19,566 ",,hbcu,"Columbia, SC",57-74,FALSE,columbia,sc,south carolina
+59,177,Cheyney University of Pennsylvania,"$17,452 (out-of-state), $11,356 (in-state)",709,hbcu,"Cheyney, PA",57-74,TRUE,cheyney,pa,pennsylvania
+60,180,Edward Waters College,"$13,525 ",,hbcu,"Jacksonville, FL",57-74,FALSE,jacksonville,fl,florida
+61,183,Harris Stowe State University,"$9,853 (out-of-state), $5,220 (in-state)","1,464",hbcu,"St. Louis, MO",57-74,TRUE,st. louis,mo,missouri
+62,186,Huston Tillotson University,"$14,346 ",965,hbcu,"Austin, TX",57-74,FALSE,austin,tx,texas
+63,189,Jarvis Christian College,"$11,720 ",900,hbcu,"Hawkins, TX",57-74,FALSE,hawkins,tx,texas
+64,192,Lane College,"$10,280 ",,hbcu,"Jackson, TN",57-74,FALSE,jackson,tn,tennessee
+65,195,Langston University,"$13,073 (out-of-state), $5,734 (in-state)","2,050",hbcu,"Langston, OK",57-74,TRUE,langston,ok,oklahoma
+66,198,LeMoyne Owen College,"$10,900 ",959,hbcu,"Memphis, TN",57-74,FALSE,memphis,tn,tennessee
+67,201,Livingstone College,"$17,763 ","1,204",hbcu,"Salisbury, NC",57-74,FALSE,salisbury,nc,north carolina
+68,204,Paine College,"$14,224 ",,hbcu,"Augusta, GA",57-74,FALSE,augusta,ga,georgia
+69,207,Rust College,"$9,500 ","1,004",hbcu,"Holly Springs, MS",57-74,FALSE,holly springs,ms,mississippi
+70,210,Shaw University,"$16,480 ","1,713",hbcu,"Raleigh, NC",57-74,FALSE,raleigh,nc,north carolina
+71,213,Stillman College,"$10,418 ",,hbcu,"Tuscaloosa, AL",57-74,FALSE,tuscaloosa,al,alabama
+72,216,Voorhees College,"$12,630 ",,hbcu,"Denmark, SC",57-74,FALSE,denmark,sc,south carolina
+73,219,Wiley College,"$12,064 ",,hbcu,"Marshall, TX",57-74,FALSE,marshall,tx,texas
+74,222,Concordia College,"$10,320 ",,hbcu,"Selma, AL",Unranked,FALSE,selma,al,alabama
+75,225,Miles College,"$11,604 ",,hbcu,"Birmingham, AL",Unranked,FALSE,birmingham,al,alabama
+76,228,Morris College,"$13,045 ",,hbcu,"Sumter, SC",Unranked,FALSE,sumter,sc,south carolina
+77,231,Southwestern Christian College,"$8,074 ",,hbcu,"Terrell, TX",Unranked,FALSE,terrell,tx,texas
+78,234,Talladega College,"$12,340 ",,hbcu,"Talladega, AL",Unranked,FALSE,talladega,al,alabama
+79,237,Texas College,"$17,208 ",,hbcu,"Tyler, TX",Unranked,FALSE,tyler,tx,texas
