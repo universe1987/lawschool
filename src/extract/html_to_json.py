@@ -21,11 +21,11 @@ def html_to_json(filename):
 
 
 if __name__ == '__main__':
-    html_files = glob(os.path.join(HTML_DIR, '*.html'))
+    html_files = glob(os.path.join(HTML_DIR, 'search_*.html')) + glob(os.path.join(HTML_DIR, 'user_*.html'))
     print len(html_files)
     stop_watch = StopWatch()
     for i, filename in enumerate(html_files):
         html_to_json(filename)
-        if i % 100 == 0:
+        if i % 100 == 0: 
             print i, filename
     stop_watch.tic('converted {} html documents to json'.format(len(html_files)))
