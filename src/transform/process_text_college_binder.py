@@ -226,6 +226,13 @@ def college_name_conclude():
     print 'df_details_college','/',df_details_college['User Name'].nunique(),df_details_college['College Name or Type'].nunique()
     print 'df_details_college','||',len(df_details_college),len(df_details_college[df_details_college['User Name']!=''])
     
+    print df_details_college['User Name'].nunique(),len(df_details_college)
+    df_noname = df_details_college[df_details_college['User Name']=='']
+    df_noname.to_csv('../../data/edit/df_noname.csv')
+    
+    df_details_college = df_details_college[df_details_college['User Name']!='']
+    print len(df_details_college), df_details_college['User Name'].nunique()
+    
     df_details_college.to_csv('../../data/edit/df_details_race_college_cleaned.csv')
     # Key college variable: name, rank, group, groups
     # groups:['positive','neutral','bad','bad_school','foreign']

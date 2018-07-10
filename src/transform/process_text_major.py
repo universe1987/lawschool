@@ -173,6 +173,11 @@ def lsac_majors():
 def breakdown_majors():
     df_details = pd.read_csv('../../data/edit/df_details_race_college_cleaned.csv')
     df_details = df_details.fillna('')
+    print df_details['User Name'].nunique(),len(df_details)
+    
+    for item in [ 'additional info' ,'extra curricular' ]:
+        df_details[item] = df_details['Major'].apply(lambda x: keep_ascii(x))
+    
     df_details['Major'] = df_details['Major'].str.replace("  "," ").str.replace("   "," ")
     df_details['Major'] = df_details['Major'].apply(lambda x: ''.join([i if (ord(i)==32)|(ord(i)==39)|(64 < ord(i) < 91)|(96<ord(i)<123) else "$" for i in x]))
     df_details['Major'] = df_details['Major'].str.lower().str.replace('and',"$")
@@ -193,6 +198,8 @@ def breakdown_majors():
     for ix in range(1,len_m+1):
         df_details['Major element {}'.format(ix)] = df_details['Major element {}'.format(ix)].str.lstrip().str.rstrip()
     df_details = df_details.fillna('')
+    print df_details.columns.tolist()
+    
     df_details.to_csv('../../data/edit/df_details_major_elements_broken_down.csv')
     
     # Generate a list of unique values
@@ -229,6 +236,7 @@ def merge_majors_lsac_lsn():
             df_lsn.loc[index,'major guess'] = best_match_lsac[0]
     print len(df_lsn), len(df_lsn[df_lsn['major guess']!=''])
     
+    df_lsn.to_csv('../../data/edit/df_major_guess_lsn.csv')
     df_lsn_matched = df_lsn[df_lsn['major guess']!='']
     df_lsn_matched.to_csv('../../data/edit/df_major_guess_lsn_matched.csv')
     
@@ -264,8 +272,64 @@ def tallal_majors_lsac_lsn():
     return
     
 def major_clean_binder():
+
+    # Get rid of redundant rows in data scraped out of PDF
     df_major_vs_category_lsac = pd.read_csv('../../data/edit/major_vs_category_lsac.csv')
     df_major_vs_category_lsac = df_major_vs_category_lsac[['Major','Major Category','% Applicants']]
-    print df_major_vs_category_lsac.head(10)
+    print len(df_major_vs_category_lsac), df_major_vs_category_lsac['Major'].nunique()
+    print df_major_vs_category_lsac['Major'].value_counts()
+    list_redundant = ['physics','any area not listed - other','biology','physical therapy']
+    print df_major_vs_category_lsac.loc[df_major_vs_category_lsac['Major'].isin(list_redundant)]
+    list_redundant2 = [0.02,1.34,0.53,0.02]
+    for index, item in enumerate(list_redundant):
+        df_major_vs_category_lsac = df_major_vs_category_lsac.drop(df_major_vs_category_lsac[(df_major_vs_category_lsac['Major'] == list_redundant[index]) & (df_major_vs_category_lsac['% Applicants'] == list_redundant2[index])].index)
+    print df_major_vs_category_lsac['Major'].value_counts()
+
     
+    # merge machine_guessed_majors to pdf
+    df_lsn_matched = pd.read_csv('../../data/edit/df_major_guess_lsn_matched.csv')
+    df_part1 = df_lsn_matched.merge(df_major_vs_category_lsac, left_on='major guess',right_on='Major',how='left').reset_index()
+    
+    # reshape
+    list_major_category = ['social sciences','arts & humanities','business & management',
+                           'natural sciences','engineering','health professions','other']
+    for var in list_major_category:
+        df_part1[var] = ''
+    for index, row in df_part1.iterrows():
+        for var in list_major_category:
+            if row['Major Category'] == var:
+                df_part1.loc[index,var] = 1
+    
+    # merge tallal_guessed_majors to pdf
+    df_part1 = df_part1[['Major element','major guess']+list_major_category]
+    df_part2 = pd.read_csv('../../data/entry/tallal_major_classification_revised_myself.csv')
+    df_part2 = df_part2[['Major element','major guess']+list_major_category]
+    
+    df_both = df_part1.append(df_part2)
+    print df_both['Major element'].nunique(),df_part1['Major element'].nunique(),df_part2['Major element'].nunique()
+    df_both.to_csv('../../data/edit/df_both.csv')
+    
+    # merge back to the main user data
+    df_details = pd.read_csv('../../data/edit/df_details_major_elements_broken_down.csv')
+    print df_details.columns.tolist()
+    df_details = df_details.drop(['Unnamed: 0', 'Unnamed: 0.1'],axis=1)
+    print df_details['User Name'].nunique(), len(df_details)
+
+    len_m = 6
+    df = df_details
+    for ix in range(1,len_m+1):
+        df = df.merge(df_both,left_on='Major element {}'.format(ix),right_on='Major element',how='left').reset_index(drop=True)
+        for item in list_major_category:
+            df['{} {}'.format(item,ix)] = df['{}'.format(item)].fillna('').astype(str)
+        df = df.drop(list_major_category+['major guess','Major element'],axis=1)    
+    df.to_csv('../../data/edit/df_major_elements.csv')
+    print df['User Name'].nunique(), len(df)
+    
+    # reshape the main user data
+    for item in list_major_category:
+        df['{}'.format(item)] = df[['{} 1'.format(item),'{} 2'.format(item),'{} 3'.format(item),
+                                    '{} 4'.format(item),'{} 5'.format(item),'{} 6'.format(item)]].max(axis=1)
+        for ix in range(1,len_m+1):
+            df = df.drop(['{} {}'.format(item, ix)],axis=1)
+    df.to_csv('../../data/edit/df_details_race_college_major_cleaned.csv')
     return

@@ -31,6 +31,7 @@ from process_text_college_binder import school_usnews_merge, school_usnews_detai
                                         college_name_conclude
 from process_text_major import lsac_majors,breakdown_majors,merge_majors_lsac_lsn,tallal_majors_lsac_lsn,\
                                major_clean_binder
+from process_text_extracurricular import extract_extracurriculars
 
 import scipy
 import statsmodels.api as sm
@@ -90,12 +91,14 @@ if __name__ == '__main__':
     #college_name_conclude()
     
     #======= Major ========#
-    lsac_majors()
+    #lsac_majors()
     #breakdown_majors()
-    merge_majors_lsac_lsn()
-    tallal_majors_lsac_lsn()
+    #merge_majors_lsac_lsn()
+    #tallal_majors_lsac_lsn()
+    #major_clean_binder()
     
-    #======= Extracurricular ========#
+    #======= Extracurricular Activities========#
+    #extract_extracurriculars()
     
     raw_input('lalalalala')
     
