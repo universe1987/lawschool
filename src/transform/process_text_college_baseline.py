@@ -180,7 +180,7 @@ def match_college_name_type():
     return df_school_match
     
 def prune_college_name_type():
-    #match_college_name_type()
+    match_college_name_type()
     df_school_prune = pd.read_csv('../../data/edit/schools.csv')
 
     for col in ['name','guess','hbcu','big10','pac','sisters']:

@@ -34,7 +34,7 @@ def learn_text():
     print df_details.columns
     
     short_var_list = ['College Name or Type', 'Major', 'City','State','Race','Gender', 'Class Rank', 'Years out of Undergrad']
-    long_Var_list = ['extra curricular', 'additional info']
+    long_var_list = ['extra curricular', 'additional info']
     
     for index, item in enumerate(short_var_list):
         print item, df_details[item].nunique(), df_details[item].unique()

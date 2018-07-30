@@ -57,7 +57,8 @@ from StopWatch import StopWatch
 
 
 
-if __name__ == '__main__':    
+if __name__ == '__main__': 
+    #======= Load Data ========#   
     #process_app_data()
     #process_rank_data()
     #merge_app_rank()
@@ -71,7 +72,7 @@ if __name__ == '__main__':
     
     #======= College Name or Type ========#
     #usnews_acronym_flagship_merge()
-    #learn_college_name_type()
+    ##learn_college_name_type() seems redundant
     #prune_college_name_type()
     #tallal_college_name_type()
     #match_tallal_college_name_type()
@@ -102,7 +103,7 @@ if __name__ == '__main__':
     
     raw_input('lalalalala')
     
-    
+    #======= Clean Data Format ================#
     df_app = pd.read_csv('../../data/edit/app_matched.csv')
     df_app_new = clean_app_rank(df_app)
     
