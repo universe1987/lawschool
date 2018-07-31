@@ -66,7 +66,16 @@ def _get_search_info(html_doc):
 
 
 def _get_school_info(html_doc):
-    return {}, []
+    soup = BeautifulSoup(html_doc, 'html.parser')
+    early_decision = soup.find_all('p', {'class': 'important_dates div_left'})
+    result = {}
+    if early_decision:
+        content = [line.strip() for line in early_decision[0].get_text().split('\n')]
+        content = [line for line in content if line]
+        for line in content:
+            key, val = line.split(':')
+            result[key.strip()] = val.strip()
+    return {'important_dates': result}
 
 
 def get_info(category, html_doc):

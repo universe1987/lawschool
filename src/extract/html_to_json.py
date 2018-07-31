@@ -21,7 +21,9 @@ def html_to_json(filename):
 
 
 if __name__ == '__main__':
-    html_files = glob(os.path.join(HTML_DIR, 'search_*.html')) + glob(os.path.join(HTML_DIR, 'user_*.html'))
+    html_files = glob(os.path.join(HTML_DIR, 'search_*.html'))\
+                 + glob(os.path.join(HTML_DIR, 'user_*.html'))\
+                 + glob(os.path.join(HTML_DIR, 'school_*.html'))
     print len(html_files)
     stop_watch = StopWatch()
     for i, filename in enumerate(html_files):
