@@ -37,23 +37,26 @@
 The purpose of the task is to classify user-supplied descriptions of extra-curricular activities quantitatively. 
 
 \begin{enumerate}
-\item File {\itshape read\_extra\_curricular.txt} contains user-supplied descriptions. File {\itshape classify\_extra\_curricular.csv} contains the classification spreadsheet.
-\item Classify the extra-curricular descriptions based on the following dimensions:
+\item I provide some examples below:
+\item File {\itshape sample\_read\_extra\_curricular.txt} contains user-supplied descriptions. File {\itshape sample\_classify\_extra\_curricular.csv} contains the classification spreadsheet. 
+\item Classify the extra-curricular descriptions based on following dimensions:
 \begin{itemize}
-\item {\itshape Greek}: Any Greek life (membership in societies with names consisting only greek letters.)
-\item {\itshape Community/Volunteer}: Any volunteering services or community work.
-\item {\itshape Athletic/Varsity}: Any sports achievements or membership.
-\item {\itshape Student Societies}: Any activities in student government, organizations, societies, student-run journals, or any other university campus activities. 
-\item {\itshape Military}: Any military service. 
-\item {\itshape Overseas}: Any overseas experience (study, work, internship, exchange, etc)
-\item {\itshape Legal Internship}: Any internship or summer work experience related to legal work, paralegal work, courts, or politics.
-\item {\itshape Non-Legal Internship}: Any non-legal internship/summer work.
-\item {\itshape Legal Work Experience}: Any full-time legal-related work experience.
-\item {\itshape Non-Legal Work Experience}: Any full-time non-legal-related work experience.
-\item {\itshape Strong Letters}: Any good letters.
-\item {\itshape Leadership}: Any leadership responsibilities in any categories above.
+\item {\itshape\textcolor{blue}{Greek}}: Any Greek life (membership in fraternal societies with names consisting of only greek letters.) For instance, ``Phi Alpha Delta'' counts as a Greek society. Sometimes the user just vaguely specifies that he has ``fraternal experiences''; count that as Greek too. However, if the user does not explicitly state that the organization contains Greek letters or is a fraternal society, there is no need to Google whether it is a Greek society or not; just treat it as non-Greek student society. 
+\item {\itshape \textcolor{blue}{Community/Volunteer}}: Any volunteering services or community work.
+\item {\itshape \textcolor{blue}{Athletic/Varsity}}: Any sports achievements or sports club membership.
+\item {\itshape \textcolor{blue}{Non-Greek Student Societies}}: Any activities in student government, organizations, societies, student-run journals, or any other university campus activities. Some users say that they have ``EC'' experiences, treat those as Non-Greek Student Society experience. 
+\item {\itshape \textcolor{blue}{Military}}: Any military service. 
+\item {\itshape \textcolor{blue}{Overseas}}: Any overseas experience (including study, work, internship, exchange, etc)
+\item {\itshape \textcolor{blue}{Legal Internship}}: Any internship or summer work experience related to legal work, paralegal work, courts, or politics. Sometimes the user does not specify whether it is work experience or internship experience; in such cases, treat it as work experience. 
+\item {\itshape \textcolor{blue}{Non-Legal Internship}}: Any non-legal internship/summer work.
+\item {\itshape \textcolor{blue}{Legal Work Experience}}: Any full-time and part-time work experience related to legal work, paralegal work, courts, or politics. Again, sometimes the user does not specify whether it is work experience or internship experience; in such cases, treat it as work experience. 
+\item {\itshape \textcolor{blue}{Non-Legal Work Experience}}: Any full-time and part-time non-legal-related work experience, including campus work such as tutoring, research assistantship, and teaching assistantship. 
+\item {\itshape \textcolor{blue}{Strong Letters}}: Any good letters. A commonplace acronym for ``letter of recommendations'' is LOR.
+\item {\itshape \textcolor{blue}{Leadership}}: Any leadership responsibilities in any categories above. This includes implied leadership. For instance, some users describe themselves as presidents of clubs, ``holding top positions'', or ``starting or founding'' an organization; count all those as leadership, even if the word ``leadership'' does not explicitly appear. 
 \end{itemize}
 \item If the user has mentioned certain experience, fill {\itshape 1} to the spreadsheet. Otherwise, leave it blank.
+\item If the user reports work experience/internship but does not specify what it is, treat it as non-legal ones. 
+\item The word ``softs'' refer to ``Non-test-score characteristics''. Some users may describe themselves as having ``average softs'', which means that they have comparable activities as their peers. However, if they do not explicitly describe what these experiences are, ignore the word ``softs''.  
 \end{enumerate}
 
 \end{document}

@@ -236,4 +236,5 @@ def college_name_conclude():
     df_details_college.to_csv('../../data/edit/df_details_race_college_cleaned.csv')
     # Key college variable: name, rank, group, groups
     # groups:['positive','neutral','bad','bad_school','foreign']
+    
     return

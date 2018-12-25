@@ -43,7 +43,7 @@ def learn_text():
     return
 
 def clean_state_city():
-    df_details = pd.read_csv('../../data/edit/df_details.csv')
+    df_details = pd.read_csv('../../data/edit/df_details_race2.csv')
     for item in ['College Name or Type','State','City']:
         df_details[item] = df_details[item].fillna('').str.lower() # May transfer to learn_text
     df_details.to_csv('../../data/edit/df_details_sc.csv')

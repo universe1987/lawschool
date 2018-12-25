@@ -72,5 +72,5 @@ def clean_race_ethnicity():
     print 'Race2', len(df_details[df_details['Race2']!=''])
     df = pd.Series(df_details['Race2'].unique())
     df.to_csv('../../data/edit/Race2_unique.csv')
-    df_details.to_csv('../../data/edit/df_details.csv')
+    df_details.to_csv('../../data/edit/df_details_race2.csv')
     return

@@ -82,7 +82,7 @@ def extract_extracurriculars():
     df_classify = df_details[['User Name','extra curricular']]
     list_softs = ['Greek','Community/Volunteer','Athletic/Varsity','Student Societies',
                   'Military','Overseas','Non-legal Internship','Legal Internship',
-                  'Work Experience','Strong Letters','Leadership']
+                  'Non-Legal Work Experience','Legal Work Experience','Strong Letters','Leadership']
     for item in list_softs:
         df_classify[item] = ''
     
@@ -106,6 +106,95 @@ def extract_extracurriculars():
     #print len(df_details)
     #df_details['extra curricular'] = df_details[df_details['extra curricular']!='']
     #print len(df_details)
+    
+def merge_back_extracurricular_classified():    
+    # Read the background data
+    df_details = pd.read_csv('../../data/edit/df_details_race_college_major_numeric_cleaned.csv')
+    df_details = df_details.fillna('')
+    df_details = df_details.drop(['extra curricular'],axis=1)
+    
+    # Read the mother data of ECs
+    df_mom = pd.read_csv('../../data/edit/df_details_race_college_cleaned.csv')
+    df_mom = df_mom.fillna('')
+    df_mom = df_mom[['User Name','extra curricular']]
+    print df_mom.columns.tolist()
+    print df_mom['extra curricular'].head(10)
+    print df_mom['User Name'].nunique(),len(df_mom['User Name'])
+    
+    # Merge mom to the background
+    df_mother = df_details.merge(df_mom,on=['User Name'],how='left').reset_index()
+    df_mother = df_mother.drop(['level_0'],axis=1)
+    print df_mother.columns.tolist()
+    
+    # Read Children data of ECs
+    df_children = pd.read_csv('../../data/entry/lara_extra_curricular/classified/(Demerji) classify_extra_curricular.csv')
+    print df_children['User Name'].nunique(),len(df_children['User Name'])
+    
+    df_demerji = pd.read_csv('../../data/entry/lara_extra_curricular/classified/(Demerji) classify_extra_curricular.csv')
+    df_demerji = df_demerji[df_demerji['Unnamed: 0']<=11783]
+    df_demerji = df_demerji.rename(columns={'Non-Legal Work Experience':'Non-legal Work Experience'})
+    print df_demerji['User Name'].nunique(),len(df_demerji['User Name'])
+    print df_demerji['Community/Volunteer'].unique()
+    
+    
+    df_kouzela = pd.read_csv('../../data/entry/lara_extra_curricular/classified/(Kouzela) classify_extra_curricular.csv')
+    df_kouzela = df_kouzela[df_kouzela['User Name'].notnull()] # Remove blank user names
+    df_kouzela = df_kouzela[(df_kouzela['Unnamed: 0']>=11784)&(df_kouzela['Unnamed: 0']<=20000)|
+                            (df_kouzela['Unnamed: 0']>=28194)&(df_kouzela['Unnamed: 0']<=30000)|
+                            (df_kouzela['Unnamed: 0']>=40001)&(df_kouzela['Unnamed: 0']<=53393)]
+    print df_kouzela['User Name'].nunique(),len(df_kouzela['User Name'])
+    print df_kouzela['Community/Volunteer'].unique()
+    print df_kouzela.columns.tolist()
+    
+    df_kroone = pd.read_csv('../../data/entry/lara_extra_curricular/classified/(Kroone) classify_extra_curricular.csv')
+    df_kroone = df_kroone[df_kroone['Unnamed: 0']>=53394]
+    print df_kroone['User Name'].nunique(),len(df_kroone['User Name'])
+    print df_kroone['Community/Volunteer'].unique()
+    print df_kroone.columns.tolist()
+    
+    df_locke = pd.read_csv('../../data/entry/lara_extra_curricular/classified/(Locke) classify_extra_curricular.csv')
+    df_locke = df_locke[(df_locke['Unnamed: 0']>=30001)&(df_locke['Unnamed: 0']<=40000)]
+    print df_locke['User Name'].nunique(),len(df_locke['User Name'])
+    print df_locke['Community/Volunteer'].unique()
+    print df_locke.columns.tolist()
+    
+    df_brown = pd.read_csv('../../data/entry/lara_extra_curricular/classified/(Brown) classify_extra_curricular.csv')
+    df_brown = df_brown[(df_brown['Unnamed: 0']>=20001)&(df_brown['Unnamed: 0']<=28193)]
+    print df_brown['User Name'].nunique(),len(df_brown['User Name'])
+    print df_brown['Community/Volunteer'].unique()
+    print df_brown.columns.tolist()
+    
+    list_kids = [df_demerji,df_kouzela,df_kroone,df_locke,df_brown]
+    df_kids = pd.concat(list_kids).drop(['Unnamed: 0'],axis=1)
+    
+    # Merge Mother and Kids
+    df_home = df_mother.merge(df_kids,on='User Name',how='left').reset_index()
+    print df_home['User Name'].nunique()
+    
+    # Disentangle non-reporting from non-useful-activities
+    print df_kids.columns.tolist()
+    softs = ['Athletic/Varsity', 'Community/Volunteer', 'Greek', 'Leadership', 'Legal Internship',
+             'Legal Work Experience', 'Military', 'Non-legal Internship', 
+             'Non-legal Work Experience', 'Overseas', 'Strong Letters', 'Student Societies']
+    for index,item in enumerate(softs):
+        df_home[item] = df_home[item].fillna('').astype(str)
+        #print df_home[item].unique()
+        df_home.loc[(df_home[item]=='1.0')|(df_home[item]=='2.0')|(df_home[item]=='1')|(df_home[item]=='q'),item] = '1.0'
+        df_home.loc[df_home[item]!='1.0',item]='0.0'
+        df_home.loc[df_home['extra curricular'] == '',item] = ''
+        df_home[item] = pd.to_numeric(df_home[item],errors='coerce')
+        print df_home[item].unique(),df_home[item].mean()
+    
+    df_home['EC at all'] = df_home[softs].sum(axis=1)
+    df_home.loc[df_home['EC at all']>0,'EC at all'] = 1.0
+    print df_home['EC at all'].mean(),df_home['EC at all'].unique()
+    print df_home[softs+['EC at all','User Name','extra curricular']].head(5)
+    
+    # Export to csv
+    print df_home.columns.tolist()
+    df_home.to_csv('../../data/edit/df_details_race_college_major_numeric_EC_cleaned.csv')
+    
+    return
 
 def topic_modelling_yujia():
     # Keep valid characters only

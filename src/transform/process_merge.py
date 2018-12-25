@@ -78,17 +78,22 @@ def process_app_data():
     dic['inner'].to_csv('../../data/edit/inner.csv')
     
     df = dic['outer'].groupby(['Law School'])['User Name'].count().reset_index()
-    df['Law School'].to_csv('../../data/edit/outer.csv')
+    df['Law School'].to_csv('../../data/edit/outer.csv')    
     
     #=== Merge Further with Applicant Details Tables ===#
-    df_app = dic['inner'].merge(df_details,on=['User Name'],how='inner').reset_index()
-    print 'df_app', df_app['User Name'].nunique(), df_app.columns.tolist()
+    df_app_with_details = dic['inner'].merge(df_details,on=['User Name'],how='inner').reset_index()
+    print 'df_app_with_details', df_app_with_details['User Name'].nunique(), df_app_with_details.columns.tolist()
     
-    #=== Finalize Application Data ===#
-    ###df_app = pd.read_csv('../../data/edit/inner.csv')
+    #=== Finalize Application Data without Applicant Details Tables ===#
+    df_app = pd.read_csv('../../data/edit/inner.csv')
     df_app.to_csv('../../data/edit/df_app.csv')
     df_app_school = pd.DataFrame(list(set(df_app['Law School']))).rename(columns={0:'Law School'})
     df_app_school.to_csv('../../data/edit/df_app_school.csv')
+    
+    #=== Finalize Application Data with Applicant Details Tables ===#
+    df_app_with_details.to_csv('../../data/edit/df_app_with_details.csv')
+    df_app_school_with_details = pd.DataFrame(list(set(df_app_with_details['Law School']))).rename(columns={0:'Law School'})
+    df_app_school_with_details.to_csv('../../data/edit/df_app_school_with_details.csv')
     
     return 
     
