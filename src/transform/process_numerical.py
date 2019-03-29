@@ -9,8 +9,6 @@ from glob import glob
 from collections import defaultdict, Counter
 from utils import keep_ascii_file, filter_good_applicants, get_stats
 from extract.utils import remove_special_char,keep_ascii
-from select_tables import select_application_tables, select_search_tables, select_user_tables, select_user_tables2
-from process_merge import process_app_data, process_rank_data, merge_app_rank
 import difflib
 import urllib2
 

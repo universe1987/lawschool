@@ -15,7 +15,7 @@ from select_tables_details import select_applicant_information_tables, select_de
                                   select_extra_curricular_information_tables,select_additional_info_updates_tables
 from process_merge import process_app_data, process_rank_data, merge_app_rank
 from clean import gen_dummy, merge_app_details,gen_samples,clean_app_rank, clean_app_date, clean_sample
-from statistics import summary_statistics_applicants,summary_statistics_schools
+from statistics import summary_statistics_applicants,summary_statistics_schools,summary_statistics_by_schools
 from process_text import learn_text,clean_state_city
                          
 from process_text_race import clean_race_ethnicity
@@ -36,13 +36,19 @@ from process_numerical import learn_numerical
 from early_advantage import admission_correlation
 from application_timing import app_date_distribution
 from eager_schools import offer_date_dist
-from export_stata import column_names,change_col_names,output_stata
+from export_stata import column_names,change_col_names,output_sample_stata,output_representative_stata
 from representative_app_adm import import_official_app_offer,match_official_app_names,match_all,\
-                                   official_app_stat_pool,lsn_app_stat_pool
-
-import scipy
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
+                                   official_app_stat_pool,lsn_app_stat_pool,merge_official_lsn_app_adm
+from representative_date import lsn_app_date
+from app_patterns_weekends_lsat import apply_only_on_weekends, LSAT_release,LSAT_release_df_all,\
+                                       LSAT_release_did_stats, LSAT_release_export_stats
+from simulation import simulate_both
+#from app_gp import simulate_stats,calculate_simu_stats,export_simu_stats
+from school_adm_patterns import adm_patterns
+from sample_yao_luo import extract_ec_info,extract_outcome 
+from pending_apps import extract_best_worst_offer,compare_pending_best_worst_offer,export_pending_best_worst_offer
+from app_type_round import group_basic_stats,export_group_stats
+from law_school_char import load_school_char
 
 import os
 import sys
@@ -126,27 +132,71 @@ if __name__ == '__main__':
     #df_app_date = pd.read_csv('../../data/edit/app_date.csv')
     #df_app_clean = clean_sample(df_app_date)
     
-    ##dic_count, dic_detail = stat_sample(df_app_clean)
-    ##print dic_count, dic_detail
-    #'Unnamed: 0', 'Unnamed: 0.1'
+    ###dic_count, dic_detail = stat_sample(df_app_clean)
+    ###print dic_count, dic_detail
+    ###'Unnamed: 0', 'Unnamed: 0.1'
+    
+    #======= Import Law School Characteristics ======#
+    load_school_char()
     
     #======= Create Various Samples ==========#
-    #merge_app_details()    
-    #df_all_samples = gen_samples()
+    merge_app_details()    
+    df_all_samples = gen_samples()
+    output_sample_stata(df_all_samples['a2'],'a2')
+    for x in ['a2','c1','d1']:
+        df_all_samples['{}'.format(x)].to_csv('../../data/edit/df_all_samples_{}.csv'.format(x))
     
     #======= Divert: Representative ===========#
-    import_official_app_offer()
-    match_official_app_names()
-    match_all()
-    official_app_stat_pool()
-    lsn_app_stat_pool()
-    raw_input('----------------')
+    #import_official_app_offer()
+    #match_official_app_names()
+    #match_all()
+    #official_app_stat_pool()
+    #lsn_app_stat_pool()
+    #df_official_lsn = merge_official_lsn_app_adm()
+    #output_representative_stata(df_official_lsn,'apps_adm')
+    #lsn_app_date()
     
-    #======= Divert Back: Export to Stata ==========#
-    output_stata(df_all_samples['a2'],'a2')
+    #======= Check App Patterns: Weekends & LSAT release ===================#
+    #apply_only_on_weekends('c1')
+    #LSAT_release()
+    #df_all_lsat_c1 = LSAT_release_df_all()
+    #intvl = 7.0
+    #dic_lsat_c1,dic_lsat_only_c1=LSAT_release_did_stats(df_all_lsat_c1,intvl,['User Name'])
+    #LSAT_release_export_stats(dic_lsat_c1,intvl,'dic_lsat_c1')
+    #LSAT_release_export_stats(dic_lsat_only_c1,intvl,'dic_lsat_only_c1')
+    
+    #======= Check App Patterns: Groups (gp) Submit Apps After Offers Arrive===================#
+    #======= Bad Codes. Abandon ALL=====#
+    ###simulate_student()
+    ###df_all, df_user_gp_all, df_rounds_gp_all,df_raw_gp_all,\
+    ###df_pre_offer, df_get_offer, df_post_offer,df_apps_offer_ranks = simulate_stats()
+    ###df_stats_dic = calculate_simu_stats(df_user_gp_all, df_rounds_gp_all, df_all,df_raw_gp_all,df_pre_offer,df_get_offer,df_post_offer,df_apps_offer_ranks)
+    ###export_simu_stats(df_stats_dic)
+    ###output_sample_stata(df_all,'app_group_affil')   
+    
+    #======= Check App Patterns: Learn from Public Information ===================#
+    simulate_both('d1')
+    df_stats_dic = group_basic_stats('d1')
+    export_group_stats(df_stats_dic)
     
     
-    #======= Calculate Summary Statistics ==========#
+    #======= Check Adm Patterns ===================#
+    #adm_pattern()
+    
+    #======= Generate Sample Data to Yao Luo ========#
+    #obs = 2000
+    #df_ec_info = extract_ec_info(obs)
+    #extract_outcome(obs,df_ec_info,'df_all_samples_a2')
+    
+    #======= Pending Apps Statistics ================#
+    #df_both = extract_best_worst_offer('df_all_samples_c1')
+    #dic_pending = compare_pending_best_worst_offer(df_both)
+    #export_pending_best_worst_offer(dic_pending)
+    
+    #======= Back to Main Sample: Calculate Summary Statistics ==========#
+    #df_in = pd.read_csv('../../data/edit/df_all_samples_a2.csv')
+    #summary_statistics_by_schools(df_in)
+    
     ss_applicants_1 = {}
     ss_applicants_2 = {}
     ss_applicants_3 = {}

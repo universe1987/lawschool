@@ -165,7 +165,7 @@ def process_rank_data():
     
     #=== Load pig_match masterfile for school names ===#
     #name<==df_18, match<==threshold and law_school_numbers website
-    keep_ascii_file('../../data/raw/ranking/pig_match.csv', '../../data/edit/pig_match.txt')
+    keep_ascii_file('../../data/raw/ranking/pig_match_unique.csv', '../../data/edit/pig_match.txt')
     df_pig_match_flat = pd.read_csv('../../data/edit/pig_match.txt')
     
     #=== Explode pig_match masterfile for school names ===#
@@ -177,6 +177,9 @@ def process_rank_data():
         df_pig_match[var] = df_pig_match[var].str.lstrip().str.rstrip()
     df_pig_match.loc[df_pig_match['match']=='UCLA','name'] = 'University of California_Los Angeles'
     df_pig_match['name'] = df_pig_match['name'].str.replace('-_',' ').str.replace('_',' ').str.replace(',','')
+    
+    #=== Remove Redundant Lines ===#
+    df_pig_match.drop_duplicates(keep='first',inplace=True)
     df_pig_match.to_csv('../../data/edit/pig_match_long.txt') 
 
 
@@ -224,6 +227,7 @@ def process_rank_data():
     for key, value in dic.iteritems():
         for i in range(len(value)):
             df_pig_match = pd.DataFrame(np.array([[key,value[i],1.0]]), columns=['name', 'match', 'score']).append(df_pig_match, ignore_index=True)
+    df_pig_match.drop_duplicates(subset=['name','match'],keep='first',inplace=True)
     df_pig_match.to_csv('../../data/edit/pig_match_long_new.txt')
     
     #=== Merge pig_match with rankings 18 ===#
@@ -241,6 +245,7 @@ def process_rank_data():
     df_pig = df_pig.drop(['rank_2018','Tuition','FT Enrollment','Location'],axis=1)
     df_pig_rank_18_sub = df_pig_rank_18[['name','match','rank_2018','Tuition','FT Enrollment','Location']]
     df_pig_ranks = df_pig_rank_18_sub.merge(df_pig,left_on=['name'],right_on=['name'],how='outer').reset_index()
+    df_pig_ranks.drop_duplicates(subset=['name','match'],keep='first',inplace=True)
     df_pig_ranks.to_csv('../../data/edit/pig_ranks.csv')
     
     return
@@ -250,8 +255,8 @@ def merge_app_rank():
     df_app = pd.read_csv('../../data/edit/df_app.csv')
     df_app_school = pd.read_csv('../../data/edit/df_app_school.csv')
     df_pig_ranks = pd.read_csv('../../data/edit/pig_ranks.csv')
-    list_df = [df_app_school,df_app]  
-    list_str = ['app_school','app']  
+    list_df = [df_app]  #df_app_school,
+    list_str = ['app']  #'app_school',
     list_ca = ['University of Windsor','University of British Columbia F','University of Alberta',
                'University of New Brunswick','University of Saskatchewan','Dalhousie University','University of Windsor F',
                'University of Manitoba','York University (Osgoode Hall)',"Queen's University",'University of Victoria',
@@ -264,6 +269,7 @@ def merge_app_rank():
         for item in (list_ca + list_bad):
             list_df[i] = list_df[i][list_df[i]['Law School']!=item]
         df = list_df[i].merge(df_pig_ranks,left_on='Law School',right_on='match',how='outer')
+        df.drop_duplicates(subset=['User Name','Law School'],keep='first',inplace=True)
         df.to_csv('../../data/edit/{}_test.csv'.format(list_str[i]))
         df[df['match'].notnull() & df['Law School'].notnull()].to_csv('../../data/edit/{}_matched.csv'.format(list_str[i]))
     return

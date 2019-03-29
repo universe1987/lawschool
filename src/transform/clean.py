@@ -181,7 +181,8 @@ def clean_app_rank(df_app):
 def clean_app_date(df_app):
     #=== Clean Dates ===# Timing Consuming
     for item in ['Sent','Received','Complete','Decision']:
-        df_app[item]=pd.to_datetime(df_app[item], errors = 'coerce')   
+        df_app[item]=pd.to_datetime(df_app[item], errors = 'coerce')  
+        df_app['{}_weekday'.format(item)] = df_app[item].dt.weekday
     
     #=== Convert Dates to Float ===#   
     df_app['Year'] = df_app['Year'].apply(int)
@@ -189,7 +190,9 @@ def clean_app_date(df_app):
     for yr in range(2003, 2017): 
         ##df_yr[yr-2003] = df_app[df_app['Year']==yr]
         df_yr[yr-2003] = df_app
-        df_yr[yr-2003]['Sent'] = df_yr[yr-2003][['Sent','Complete','Received']].min(axis=1)
+        print df_yr[yr-2003]['Sent'].describe()
+        #df_yr[yr-2003]['Sent'] = df_yr[yr-2003][['Sent','Complete','Received']].min(axis=1)
+        print df_yr[yr-2003]['Sent'].describe()
         df_yr[yr-2003] = df_yr[yr-2003][(df_yr[yr-2003]['Sent']>=date(yr, 9, 1)) & (df_yr[yr-2003]['Sent']<=date(yr+1,8,31))]
         df_yr[yr-2003].loc[(df_yr[yr-2003]['Decision']<=df_yr[yr-2003]['Sent']) | (df_yr[yr-2003]['Decision']>date(yr+1,8,31)),'Decision'] = date(1900, 9, 1)
         df_yr[yr-2003]['Sent_delta'] = (df_yr[yr-2003]['Sent'] - date(yr, 9, 1))  / np.timedelta64(1,'D')
@@ -203,6 +206,8 @@ def clean_app_date(df_app):
     
     #=== Export Data ======#
     df_app_date.to_csv('../../data/edit/app_date.csv')
+    print len(df_app_date[df_app_date['Sent_delta']>=0.0]) #190563 #207126
+    print 'the end'
     return df_app_date
 
 
@@ -454,16 +459,27 @@ def gen_samples():
         df_sample.loc[df_sample[item]=='',item] = np.nan
         print len(df_sample[df_sample[item].notnull()]),df_sample[item].agg(['mean','sum'])
     
+    # Remove duplicate rows
+    df_sample.drop_duplicates(subset=['User Name','Law School'],keep='first',inplace=True)
     
     #=== Export List of Law Schools ===# (App Open Dates)
     df_law_unique2 = pd.DataFrame(df_sample['Law School'].unique())
     df_law_unique2.to_csv('../../data/edit/list_law_schools2.csv')
-         
+    
+    #=== Merge Back School Characteristics ===#
+    df_school = pd.read_csv('../../data/edit/school_char.csv')
+    df_school = df_school[['Law School','opening dates delta']]
+    
+    df_sample = df_sample.merge(df_school,on=['Law School'],how='left').drop_duplicates().reset_index()
+    
+    print df_sample.columns.tolist()
     
     #====== Application Sample: Samples with Application Dates and Decisions =====#
     df_all_samples = {}
     # Sample 1: Application Dates
     df_all_samples['a1'] = df_sample[(df_sample['Sent_delta'].notnull())]
+    print len(df_all_samples['a1']) #139045 #128662
+
     # Sample 2: Sample 1 + Non-Trivial Decision Results (at least accepted/rejected/waiting listed by one school)
     df_all_samples['a2'] = df_all_samples['a1'][df_all_samples['a1']['Status_Final Reported']!='0']
     

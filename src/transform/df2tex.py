@@ -33,19 +33,25 @@ def df2tex(file1, folder, file2, formats, integer_index, cols, row_name, col_nam
                 df.iloc[i,j] = formats % df.iloc[i,j]
 
     # Import Row Names
-    if integer_index == 1:
-        rown = file1.iloc[:,row_name]
+    if row_name is not None:
+        if integer_index == 1:
+            rown = file1.iloc[:,row_name]
+        else:
+            rown = file1.loc[:,row_name]
+        rowc = len(row_name)
+        w3 = 1 + w
     else:
-        rown = file1.loc[:,row_name]
-    rowc = len(row_name)
-    w3 = 1 + w
+        rowc = 1
+        w3 = 1 + w
 
     # Export File
     with open(folder + file2, 'w') as f2:
         if col_name is None:
             f2.write(r'\begin{{tabular}}{{*{{{}}}{{l}}*{{{}}}{{c}}}}'.format(rowc, w) +'\n'  )
-        else:
+        elif row_name is not None:
             f2.write(r'\begin{{tabular}}{{*{{{}}}{{l|}}*{{{}}}{{c}}}}'.format(rowc, w) + '\n')
+        else:
+            f2.write(r'\begin{{tabular}}{{*{{{}}}{{l}}*{{{}}}{{c}}}}'.format(rowc, w) + '\n')
 
         if row_name is not None:
             f2.write(r'\hline\hline' + '\n')
@@ -62,13 +68,19 @@ def df2tex(file1, folder, file2, formats, integer_index, cols, row_name, col_nam
             f2.write(r'\\\hline' + '\n')
         else:
             f2.write(r'\\\cline{2-' + str(w3) + r'}' + '\n')
-
-        for i in range(h):
-            for k in range(len(row_name)):
-                f2.write(str(rown.iloc[i,k]))
-            for j in range(w):
-                f2.write('&'+str(df.iloc[i,j]))
-            f2.write(r'\\'+'\n')
+        
+        if row_name is not None:
+            for i in range(h):
+                for k in range(len(row_name)):
+                    f2.write(str(rown.iloc[i,k]))
+                for j in range(w):
+                    f2.write('&'+str(df.iloc[i,j]))
+                f2.write(r'\\'+'\n')
+        else:
+            for i in range(h):
+                for j in range(w):
+                    f2.write('&'+str(df.iloc[i,j]))
+                f2.write(r'\\'+'\n')                
 
         if row_name is not None:
             f2.write(r'\hline\hline' + '\n')
@@ -77,6 +89,87 @@ def df2tex(file1, folder, file2, formats, integer_index, cols, row_name, col_nam
 
         f2.write(r'\end{tabular}')
     f2.close()
+    
+def df2tex_hline(file1, folder, file2, formats, integer_index, cols, row_name, col_name, hline_lst):
+    if integer_index == 1:
+        df = file1.iloc[:,cols]
+    else:
+        df = file1.loc[:,cols]
+    h,w = df.shape
+
+    if formats is None:
+        for i in range(h):
+            for j in range(w):
+                df.iloc[i,j] = str(df.iloc[i,j])
+    else:
+        for i in range(h):
+            for j in range(w):
+                df.iloc[i,j] = formats % df.iloc[i,j]
+
+    # Import Row Names
+    if row_name is not None:
+        if integer_index == 1:
+            rown = file1.iloc[:,row_name]
+        else:
+            rown = file1.loc[:,row_name]
+        rowc = len(row_name)
+        w3 = 1 + w
+    else:
+        rowc = 1
+        w3 = 1 + w
+
+    # Export File
+    with open(folder + file2, 'w') as f2:
+        if col_name is None:
+            f2.write(r'\begin{{tabular}}{{*{{{}}}{{l}}*{{{}}}{{c}}}}'.format(rowc, w) +'\n'  )
+        elif row_name is not None:
+            f2.write(r'\begin{{tabular}}{{*{{{}}}{{l|}}*{{{}}}{{c}}}}'.format(rowc, w) + '\n')
+        else:
+            f2.write(r'\begin{{tabular}}{{*{{{}}}{{l}}*{{{}}}{{c}}}}'.format(rowc, w) + '\n')
+
+        if row_name is not None:
+            f2.write(r'\hline\hline' + '\n')
+        else:
+            f2.write(r'\cline{2-' + str(w3) + r'}' + r'\cline{2-' + str(w3) + r'}' + '\n')
+
+        if col_name is not None:
+            for i in range(rowc-1):
+                f2.write('&')
+            for j in range(w):
+                f2.write('&' + str(col_name[j]))
+
+        if row_name is not None:
+            f2.write(r'\\\hline' + '\n')
+        else:
+            f2.write(r'\\\cline{2-' + str(w3) + r'}' + '\n')
+        
+        if row_name is not None:
+            for i in range(h):
+                for k in range(len(row_name)):
+                    f2.write(str(rown.iloc[i,k]))
+                for j in range(w):
+                    f2.write('&'+str(df.iloc[i,j]))
+                if i in hline_lst:
+                    f2.write(r'\\\hline'+'\n')    
+                else:                        
+                    f2.write(r'\\'+'\n')  
+        else:
+            for i in range(h):
+                for j in range(w):
+                    f2.write('&'+str(df.iloc[i,j]))
+                if i in hline_lst:
+                    f2.write(r'\\\cline{2-' + str(w3) + r'}'+'\n')    
+                else:                        
+                    f2.write(r'\\'+'\n')                
+
+        if row_name is not None:
+            f2.write(r'\hline\hline' + '\n')
+        else:
+            f2.write(r'\cline{2-' + str(w3) + r'}' + '\n')
+
+        f2.write(r'\end{tabular}')
+    f2.close()
+
 
 def df2tex2(file1, file3, folder, file2, formats, integer_index, cols, row_name, col_name, left, right):
     # Import First File
